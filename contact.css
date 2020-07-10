@@ -1,0 +1,50 @@
+#contactMeHeading {
+    color: rgb(1, 87, 155) !important;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+#tagline {
+    padding-left: 1%;
+    border-left: 0.2vw solid rgb(1, 87, 155) !important;
+}
+
+.contactForm {
+    margin-top: 8%;
+}
+
+#fname {
+    width: 40%;
+}
+
+#femail {
+    margin-top: 1%;
+    width: 40%;
+}
+
+#fmessage {
+    width: 40%;
+    margin-top: 2%;
+}
+
+#fmessage {
+    resize: none;
+}
+
+#contactImage {
+    position: absolute;
+    right: 5%;
+}
+
+.socialMediaDetails {
+    margin-top: 8%;
+}
+
+#mediaLinks {
+    margin-left: 2%;
+    text-decoration: none;
+}
+
+.contactDetails {
+    margin-bottom: 10%;
+}

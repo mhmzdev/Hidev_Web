@@ -1,0 +1,96 @@
+.flutterBackImage {
+    width: fit-content;
+    position: absolute;
+    opacity: 0.3;
+    right: 0;
+}
+
+.myPicture {
+    margin-top: 3.5%;
+}
+
+.aboutMeText {
+    margin-top: 2%;
+    margin-left: 5%;
+    border-left: 0.2vw solid rgb(1, 87, 155) !important;
+}
+
+.statsContainer {
+    margin-top: 10%;
+}
+
+.statsType {
+    margin-left: 10%;
+    width: fit-content;
+}
+
+#statsCounter {
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(1, 87, 155) !important;
+}
+
+#statsDescription {
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.myOfferingBack {
+    position: absolute;
+    margin-top: 20%;
+}
+
+.myOfferings {
+    margin-top: 25%;
+    position: absolute;
+}
+
+.offeringsText {
+    margin-top: 2%;
+}
+
+#MyOfferings {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 4vw;
+}
+
+#description {
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.offerings {
+    margin-top: 5%;
+}
+
+.offeringContainer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#offeringType {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 1.2vw;
+}
+
+#offeringDesc {
+    font-size: 1.1vw;
+    text-align: center;
+    color: grey;
+}
+
+.prototype {
+    margin-top: 3%;
+}
+
+.socialLinks {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

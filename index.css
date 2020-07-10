@@ -1,0 +1,204 @@
+.myNavBar {
+    background-color: rgb(84, 197, 248);
+}
+
+.myNavBar .navbar-brand, .myNavBar .navbar-text {
+    color: white;
+    margin-left: 10%;
+    font-size: 32px;
+    font-family: 'Kalam', cursive;
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav .navbar-nav li a:hover {
+    color: rgb(1, 87, 155) !important;
+}
+
+nav .navbar-nav li a:focus {
+    color: rgb(1, 87, 155) !important;
+}
+
+nav .navbar-nav li a:active {
+    color: rgb(1, 87, 155) !important;
+}
+
+.blogHeadingContainer {
+    border-left: 0.4vw rgb(1, 87, 155) solid;
+    margin-left: 8%;
+    padding-left: 1%;
+}
+
+#blogHeading {
+    color: rgb(1, 87, 155) !important;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.blogs {
+    margin-top: 3%;
+}
+
+.post {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    height: 25rem;
+}
+
+div.post {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#readMoreBtn {
+    border-radius: 20px;
+    padding: 8px;
+    width: 150px;
+    color: rgb(1, 87, 155) !important;
+    background-color: white;
+    border-color: rgb(84, 197, 248);
+}
+
+#readMoreBtn:hover {
+    color: white !important;
+    border-color: rgb(84, 197, 248);
+    background-color: rgb(84, 197, 248);
+}
+
+.footerContainer {
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    margin-top: 10%;
+    height: 10%;
+}
+
+.headerLinks {
+    margin-top: 1rem;
+}
+
+#headLink {
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
+.up {
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.377);
+    top: -5.5rem;
+    right: 0rem;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+
+.up i {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: auto;
+}
+
+fa, .fas {
+    font-weight: 900;
+}
+
+fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.imgDiv {
+    top: 5rem;
+}
+
+#copyright {
+    color: white;
+    padding-top: 1.5rem;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    #flutterICTImage {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .post {
+        height: 40rem;
+    }
+    #postImg {
+        position: absolute;
+        left: 2rem;
+    }
+    .imgDiv {
+        top: 0rem;
+        bottom: 5rem;
+    }
+    .postDesc {
+        position: absolute;
+        top: 20rem;
+    }
+    #flutterICTImage {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    #copyright {
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #postImg {
+        position: absolute;
+    }
+    .imgDiv {
+        position: absolute;
+        top: 1rem;
+    }
+    .post {
+        height: 40rem;
+    }
+    .postDesc {
+        position: relative;
+        top: 15rem;
+        padding-top: 1rem;
+    }
+    #flutterICTImage {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    #copyright {
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    #headLinkImg {
+        width: 2rem;
+        margin-left: 0.0rem;
+    }
+    #flutterICTImage {
+        width: 100%;
+        padding-top: 1rem;
+    }
+    #copyright {
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .imgDiv {
+        position: absolute;
+        top: 1rem;
+    }
+
+    .post {
+        margin-top: 1rem;
+    }
+}
