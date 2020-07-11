@@ -36,7 +36,7 @@ nav .navbar-nav li a:active {
 #blogHeading {
     color: rgb(1, 87, 155) !important;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 4vw;
 }
 
 .blogs {
@@ -153,6 +153,39 @@ fa, .far, .fas {
     }
 }
 
+.up {
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.377);
+    top: -5.5rem;
+    right: 0rem;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+
+.up i {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: auto;
+}
+
+/*End footer*/
+
+/*Start animations*/
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(65, 136, 132, 0.99);
+    }
+    100% {
+        box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
+    }
+}
+
 @media only screen and (max-width: 768px) {
     #postImg {
         position: absolute;
@@ -166,7 +199,7 @@ fa, .far, .fas {
     }
     .postDesc {
         position: relative;
-        top: 15rem;
+        top: 12rem;
         padding-top: 1rem;
     }
     #flutterICTImage {
@@ -175,6 +208,7 @@ fa, .far, .fas {
     }
     #copyright {
         padding-top: 1rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -190,15 +224,44 @@ fa, .far, .fas {
     #copyright {
         padding-top: 1rem;
     }
+    #blogHeading {
+        font-size: 4vw;
+    }
 }
 
 @media only screen and (max-width: 575px) {
     .imgDiv {
         position: absolute;
         top: 1rem;
+        left: 1rem;
     }
+    #blogHeading {
+        font-size: 7vw;
+    }
+    #headLink {
+        margin-left: 0.5rem;
+    }
+}
 
+@media only screen and (max-width: 495px) {
+    #flutterICTImage {
+        width: 100%;
+        height: auto;
+    }
+    #headLink {
+        margin-left: 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
     .post {
-        margin-top: 1rem;
+        top: 2rem;
+    }
+    .postDesc {
+        top: 8rem;
+    }
+    #headLinkImg {
+        height: auto;
+        width: 1.7rem;
     }
 }

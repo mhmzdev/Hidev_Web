@@ -1,15 +1,8 @@
-// smooth scroll back up
-function onTop() {
-  $("#upBtn").on("click", function () {
+$(document).ready(function () {
+
+  $("#up").on("click", function () {
     $("html, body").animate({
       scrollTop: 0
-    }, 8000);
+    }, 1000);
   });
-
-}
-// animations
-AOS.init({
-  easing: "ease",
-  duration: 1200,
-  once: true
 });
