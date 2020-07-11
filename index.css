@@ -47,7 +47,7 @@ nav .navbar-nav li a:active {
     background-color: white;
     padding: 10px;
     border-radius: 20px;
-    height: 25rem;
+    height: 50rem;
 }
 
 div.post {
@@ -71,9 +71,9 @@ div.post {
 
 .footerContainer {
     background-color: rgb(48, 48, 48);
+    margin-top: 10rem;
+    height: 5rem;
     position: absolute;
-    margin-top: 10%;
-    height: 10%;
 }
 
 .headerLinks {
@@ -86,7 +86,7 @@ div.post {
 }
 
 .up {
-    position: absolute;
+    /* position: absolute; */
     width: 2.5rem;
     height: 2.5rem;
     background-color: rgba(0, 0, 0, 0.377);
@@ -120,6 +120,19 @@ fa, .far, .fas {
 #copyright {
     color: white;
     padding-top: 1.5rem;
+}
+
+#postText {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+#postedBy {
+    font-size: 1.3rem;
+}
+
+#postTopic {
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
