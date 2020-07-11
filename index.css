@@ -186,7 +186,7 @@ fa, .far, .fas {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 770px) {
     #postImg {
         position: absolute;
     }
@@ -199,7 +199,7 @@ fa, .far, .fas {
     }
     .postDesc {
         position: relative;
-        top: 12rem;
+        top: 16rem;
         padding-top: 1rem;
     }
     #flutterICTImage {
@@ -208,7 +208,7 @@ fa, .far, .fas {
     }
     #copyright {
         padding-top: 1rem;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 }
 
