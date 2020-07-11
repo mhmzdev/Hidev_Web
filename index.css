@@ -57,7 +57,9 @@ div.post {
 #readMoreBtn {
     border-radius: 20px;
     padding: 8px;
-    width: 150px;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.5rem;
     color: rgb(1, 87, 155) !important;
     background-color: white;
     border-color: rgb(84, 197, 248);
@@ -135,9 +137,27 @@ div.post {
     margin: auto;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 991px) {
     #flutterICTImage {
-        width: 90%;
+        width: 60%;
+    }
+    .post {
+        height: 35rem;
+    }
+    #postTopic {
+        font-size: 1.5rem;
+    }
+    #postedBy {
+        font-size: 1rem;
+    }
+    #postText {
+        font-size: 1rem;
+    }
+
+    #readMoreBtn {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
     }
 }
 
@@ -155,7 +175,7 @@ div.post {
     }
     .postDesc {
         position: absolute;
-        top: 20rem;
+        top: 22rem;
     }
     #flutterICTImage {
         width: 100%;
@@ -260,5 +280,11 @@ div.post {
     #headLinkImg {
         height: auto;
         width: 1.7rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .post {
+        height: 32rem;
     }
 }
