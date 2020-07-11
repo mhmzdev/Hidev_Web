@@ -70,7 +70,7 @@ div.post {
 }
 
 .footerContainer {
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(65, 65, 65);
     margin-top: 10rem;
     height: 5rem;
     position: absolute;
@@ -85,31 +85,11 @@ div.post {
     text-decoration: none;
 }
 
-.up {
-    /* position: absolute; */
-    width: 2.5rem;
-    height: 2.5rem;
-    background-color: rgba(0, 0, 0, 0.377);
-    top: -5.5rem;
-    right: 0rem;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    display: flex;
-    animation: pulse 2s infinite;
-    cursor: pointer;
-}
-
-.up i {
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
-    margin: auto;
-}
-
-fa, .fas {
+.fa, .fas {
     font-weight: 900;
 }
 
-fa, .far, .fas {
+.fa, .far, .fas {
     font-family: "Font Awesome 5 Free";
 }
 
@@ -133,6 +113,26 @@ fa, .far, .fas {
 
 #postTopic {
     font-size: 2rem;
+}
+
+.up {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.377);
+    top: -5.5rem;
+    right: 0rem;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    display: flex;
+    animation: pulse 2s infinite;
+    cursor: pointer;
+}
+
+.up i {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: auto;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -159,31 +159,15 @@ fa, .far, .fas {
     }
     #flutterICTImage {
         width: 100%;
-        padding-top: 1rem;
+        padding-top: 0.5rem;
     }
     #copyright {
-        padding-top: 1rem;
+        padding-top: 1.5rem;
     }
-}
-
-.up {
-    position: absolute;
-    width: 2.5rem;
-    height: 2.5rem;
-    background-color: rgba(0, 0, 0, 0.377);
-    top: -5.5rem;
-    right: 0rem;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    display: flex;
-    animation: pulse 2s infinite;
-    cursor: pointer;
-}
-
-.up i {
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
-    margin: auto;
+    .up {
+        width: 4rem;
+        height: 4rem;
+    }
 }
 
 /*End footer*/
