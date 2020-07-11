@@ -195,11 +195,11 @@ fa, .far, .fas {
         top: 1rem;
     }
     .post {
-        height: 40rem;
+        height: 80rem;
     }
     .postDesc {
         position: relative;
-        top: 16rem;
+        top: 20rem;
         padding-top: 1rem;
     }
     #flutterICTImage {
