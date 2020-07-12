@@ -26,10 +26,11 @@
 #fmessage {
     width: 95%;
     margin-top: 2%;
+    resize: none;
 }
 
-#fmessage {
-    resize: none;
+.btn-primary {
+    margin-top: 5%;
 }
 
 #contactImage {

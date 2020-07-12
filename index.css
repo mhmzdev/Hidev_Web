@@ -28,7 +28,7 @@ nav .navbar-nav li a:active {
 }
 
 .blogHeadingContainer {
-    border-left: 0.4vw rgb(1, 87, 155) solid;
+    border-left: 0.2rem rgb(1, 87, 155) solid;
     margin-left: 8%;
     padding-left: 1%;
 }
@@ -36,18 +36,19 @@ nav .navbar-nav li a:active {
 #blogHeading {
     color: rgb(1, 87, 155) !important;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 220%;
 }
 
 .blogs {
-    margin-top: 3%;
+    margin-top: 10%;
 }
 
 .post {
     background-color: white;
     padding: 10px;
     border-radius: 20px;
-    height: 50rem;
+    height: 60%;
+    padding-bottom: 10%;
 }
 
 div.post {
@@ -57,9 +58,9 @@ div.post {
 #readMoreBtn {
     border-radius: 20px;
     padding: 8px;
-    width: 15rem;
-    height: 5rem;
-    font-size: 1.5rem;
+    width: 100%;
+    height: 8%;
+    font-size: 130%;
     color: rgb(1, 87, 155) !important;
     background-color: white;
     border-color: rgb(84, 197, 248);
@@ -78,13 +79,24 @@ div.post {
     position: absolute;
 }
 
-.headerLinks {
-    margin-top: 1rem;
+#flutterICTImage {
+    height: auto;
+    width: 100%;
+}
+
+#copyright {
+    color: white;
+    margin-top: 2%;
+}
+
+#footerIcon {
+    color: rgb(133, 133, 133);
+    font-size: 220%;
 }
 
 #headLink {
-    margin-left: 1.5rem;
     text-decoration: none;
+    margin-left: 5%;
 }
 
 .fa, .fas {
@@ -96,25 +108,20 @@ div.post {
 }
 
 .imgDiv {
-    top: 5rem;
-}
-
-#copyright {
-    color: white;
-    padding-top: 1.5rem;
+    top: 10%;
 }
 
 #postText {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 150%;
 }
 
 #postedBy {
-    font-size: 1.3rem;
+    font-size: 100%;
 }
 
 #postTopic {
-    font-size: 2rem;
+    font-size: 220%;
 }
 
 .up {
@@ -137,241 +144,11 @@ div.post {
     margin: auto;
 }
 
-@media only screen and (min-width: 991px) {
-    #flutterICTImage {
-        width: 60%;
-    }
-    .post {
-        height: 35rem;
-    }
-    #postTopic {
-        font-size: 1.5rem;
-    }
-    #postedBy {
-        font-size: 1rem;
-    }
-    #postText {
-        font-size: 1rem;
-    }
-    #readMoreBtn {
-        width: 10rem;
-        height: 3rem;
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-    .post {
-        height: 70rem;
-    }
-    #postImg {
-        position: absolute;
-        left: 2rem;
-    }
-    .imgDiv {
-        top: 0rem;
-        bottom: 5rem;
-    }
-    .postDesc {
-        position: absolute;
-        top: 22rem;
-    }
-    #flutterICTImage {
-        width: 100%;
-        padding-top: 0.5rem;
-    }
-    #copyright {
-        padding-top: 1.5rem;
-    }
-    .up {
-        width: 4rem;
-        height: 4rem;
-    }
-}
-
-/*End footer*/
-
-/*Start animations*/
-
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0 rgba(65, 136, 132, 0.99);
     }
     100% {
         box-shadow: 0 0 0 1rem rgba(65, 136, 132, 0);
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    #postImg {
-        position: absolute;
-    }
-    .imgDiv {
-        position: absolute;
-        top: 1rem;
-    }
-    .post {
-        height: 80rem;
-    }
-    .postDesc {
-        position: relative;
-        top: 20rem;
-        padding-top: 1rem;
-    }
-    #flutterICTImage {
-        width: 100%;
-        padding-top: 1rem;
-    }
-    #copyright {
-        padding-top: 1rem;
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width: 730px) {
-    #headLinkImg {
-        width: 2rem;
-        margin-left: 0.0rem;
-    }
-    #flutterICTImage {
-        width: 100%;
-        padding-top: 1rem;
-    }
-    #copyright {
-        padding-top: 1rem;
-    }
-    #blogHeading {
-        font-size: 4vw;
-    }
-}
-
-@media only screen and (max-width: 575px) {
-    .imgDiv {
-        position: absolute;
-        top: 1rem;
-        left: 1rem;
-    }
-    #blogHeading {
-        font-size: 7vw;
-    }
-    #headLink {
-        margin-left: 0.5rem;
-    }
-
-}
-
-@media only screen and (min-width: 451px) and (max-width: 576px) {
-    #flutterICTImage {
-        width: 100%;
-        height: auto;
-    }
-    .post {
-        height: 72rem;
-    }
-    #headLink {
-        margin-left: 0.2rem;
-    }
-    .postDesc {
-        top: 10rem;
-    }
-    #postedBy {
-        font-size: 1rem;
-    }
-    #postText {
-        font-size: 1.2rem;
-    }
-    #readMoreBtn {
-        height: 3.5rem;
-        width: 10rem;
-    }
-    #readMoreText {
-        font-size: 1.2rem;
-    }
-    .footerContainer {
-        height: 8rem;
-    }
-    .headerLinks {
-        margin-top: 5rem;
-        position: absolute;
-        margin-left: 3rem;
-    }
-    #headLink {
-        margin-left: 2rem;
-    }
-    #headLinkImg {
-        height: auto;
-        width: 12%;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .post {
-        height: 70rem;
-    }
-    .post {
-        top: 2rem;
-    }
-    .postDesc {
-        top: 8rem;
-    }
-    #postedBy {
-        font-size: 1rem;
-    }
-    #postText {
-        font-size: 1.2rem;
-    }
-    #readMoreBtn {
-        margin-top: 1rem;
-        width: 12rem;
-        height: 3.5rem;
-        text-align: center;
-    }
-    #readMoreText {
-        font-size: 1.2rem;
-    }
-    #blogHeading {
-        font-size: 2.2rem;
-    }
-    .footerContainer {
-        height: 8rem;
-    }
-    .headerLinks {
-        margin-top: 5rem;
-        position: absolute;
-        margin-left: 3rem;
-    }
-    #headLink {
-        margin-left: 2rem;
-    }
-    #headLinkImg {
-        height: auto;
-        width: 12%;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .post {
-        height: 32rem;
-    }
-}
-
-@media only screen and (max-width: 390px) {
-    .footerContainer {
-        height: 8rem;
-    }
-    .post {
-        height: 75rem;
-    }
-    .headerLinks {
-        margin-top: 5rem;
-        position: absolute;
-        margin-left: 3rem;
-    }
-    #headLink {
-        margin-left: 2rem;
-    }
-    #headLinkImg {
-        height: auto;
-        width: 12%;
     }
 }
