@@ -257,15 +257,50 @@ div.post {
     #headLink {
         margin-left: 0.5rem;
     }
+    
 }
 
-@media only screen and (max-width: 495px) {
+@media only screen and (min-width: 451px) and (max-width: 576px) {
     #flutterICTImage {
         width: 100%;
         height: auto;
     }
+    .post {
+        height: 72rem;
+    }
     #headLink {
         margin-left: 0.2rem;
+    }
+    .postDesc {
+        top: 10rem;
+    }
+    #postedBy {
+        font-size: 1rem;
+    }
+    #postText {
+        font-size: 1.2rem;
+    }
+    #readMoreBtn {
+        height: 3.5rem;
+        width: 10rem;
+    }
+    #readMoreText {
+        font-size: 1.2rem;
+    }
+    .footerContainer {
+        height: 8rem;
+    }
+    .headerLinks {
+        margin-top: 5rem;
+        position: absolute;
+        margin-left: 3rem;
+    }
+    #headLink {
+        margin-left: 2rem;
+    }
+    #headLinkImg {
+        height: auto;
+        width: 12%;
     }
 }
 

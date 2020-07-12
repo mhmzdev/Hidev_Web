@@ -3,12 +3,26 @@
 <html>
 
 <head>
+    <!-- For Mobile responsive -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Make Beautiful Apps - Hidev</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+
+    <!-- Media Query Files -->
+    <link rel="stylesheet" href="contactMQ/576px.css">
+
+    <!-- For Scroll on Top Icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- For 'fa' font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -57,13 +71,13 @@
     <div class="container-fluid">
         <div class="row">
 
-            <aside class="mobileSolImage col-2 col-md-2 col-lg-2">
+            <aside class="col-1 col-md-1 col-lg-1">
             </aside>
 
-            <section class="contactDetails col-10 col-md-10 col-lg-10">
+            <section class="contactDetails col-10 col-sm-10 col-md-10 col-lg-10">
                 <h1 id="contactMeHeading">Contact Me</h1>
                 <div id="tagline">
-                    <p style="font-size: 1.5vw;">Have awesome idea? Want to know more about our work?
+                    <p>Have awesome idea? Want to know more about our work?
                         <br>Contact us and let's make beautiful apps together!</p>
                 </div>
                 <img id="contactImage" src="images/contactImage.jpg" width="50%">
@@ -77,31 +91,37 @@
                             placeholder="Your Message"></textarea>
                     </form>
                 </div>
+                <div class="socialMediaDetails col-xs-12 col-sm-12 col-md-12 col-lg-12 col-12">
+                    <h2 id="contactMeHeading">Don't like forms?</h2>
+                    <p id="socialMediaText">Connect on Social Media</p>
 
-                <div class="socialMediaDetails col-lg-12">
-                    <h2 id="contactMeHeading" style="font-size: 2vw;">Don't like forms?</h2>
-                    <div style="margin-top: 2%;">
+                    <div style="margin-top: 2%; ">
+
                         <a id="mediaLinks" target="_blank" href="https://facebook.com/hamza.maddog">
-                            <img src="images/socialIcons/fb.png" style="border-radius: 50%;" width="3%">
+                            <i id="mediaIcon" class="fa fa-facebook-official" aria-hidden="true"></i>
                         </a>
                         <a id="mediaLinks" target="_blank" href="https://instagram.com/m_hamzashakeel">
-                            <img src="images/socialIcons/insta.png" style="border-radius: 50%;" width="3%">
+                            <i id="mediaIcon" class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                         <a id="mediaLinks" target="_blank" href="https://linkedin.com/in/m-hamzashakeel">
-                            <img src="images/socialIcons/in.png" style="border-radius: 50%;" width="3%">
+                            <i id="mediaIcon" class="fa fa-linkedin-square" aria-hidden="true"></i>
                         </a>
                         <a id="mediaLinks" target="_blank" href="https://twitter.com/m_hamzashakeel">
-                            <img src="images/socialIcons/twitter.png" width="3%">
+                            <i id="mediaIcon" class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                         <a id="mediaLinks" target="_blank" href="https://reddit.com/user/m_hamzashakeel">
-                            <img src="images/socialIcons/reddit.png" style="border-radius: 50%;" width="3%">
+                            <i id="mediaIcon" class="fa fa-reddit" aria-hidden="true"></i>
+                        </a>
+                        <a id="mediaLinks" target="_blank" href="https://github.com/m-hamzashakeel">
+                            <i id="mediaIcon" class="fa fa-github" aria-hidden="true"></i>
                         </a>
                         <br><br><br>
-                        <span style="font-weight: 600; font-size: 1.3vw; font-weight: 700;">Email Me</span>
+
+                        <span id="emailMe" style="font-weight: 600;">Email Me</span>
                         <br><br>
+                        <i id="mediaIcon" class="fa fa-envelope-o" aria-hidden="true"></i>
                         <a style="text-decoration: none; margin-left: 2%;" target="_blank"
                             href="https://mail.google.com/mail/?view=cm&fs=1&to=hamza.6.shakeel@gmail.com">
-                            <img src="images/socialIcons/gmail.png" width="2%">
                             <span style="margin-left: 1%;">hamza.6.shakeel@gmail.com</span>
                         </a>
                     </div>
@@ -109,7 +129,38 @@
             </section>
         </div>
     </div>
+    <footer class="container-fluid footerContainer">
+        <div class="row">
 
+            <div class="col-4 col-sm-2 col-md-2 col-lg-2 FlutterIslamabadPakistan">
+                <a style="text-decoration: none;" target="_blank" href="https://facebook.com/FlutterIslamabadPakistan">
+                    <img id="flutterICTImage" src="images/flutterIsl.png">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-4 col-lg-6" style="text-align: center;">
+                <p id="copyright">&copy;Hidev | Muhammad Hamza | 2020</p>
+            </div>
+            <div class="col-10 col-sm-5 col-md-4 col-lg-4 headerLinks" >
+                <a id="headLink" target="_blank" href="https://medium.com/@hamza.6.shakeel">
+                    <i id="footerIcon" class="fa fa-medium" aria-hidden="true"></i>
+                </a>
+                <a id="headLink" target="_blank" href="https://www.linkedin.com/in/m-hamzashakeel/">
+
+                    <i id="footerIcon" class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a id="headLink" target="_blank" href="https://github.com/m-hamzashakeel">
+                    <i id="footerIcon" class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div id="up" class="up">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>

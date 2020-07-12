@@ -1,10 +1,11 @@
 #contactMeHeading {
     color: rgb(1, 87, 155) !important;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 220%;
 }
 
 #tagline {
+    font-size: 100%;
     padding-left: 1%;
     border-left: 0.2vw solid rgb(1, 87, 155) !important;
 }
@@ -14,16 +15,16 @@
 }
 
 #fname {
-    width: 40%;
+    width: 95%;
 }
 
 #femail {
     margin-top: 1%;
-    width: 40%;
+    width: 95%;
 }
 
 #fmessage {
-    width: 40%;
+    width: 95%;
     margin-top: 2%;
 }
 
@@ -36,15 +37,82 @@
     right: 5%;
 }
 
+#contactMeHeading {
+    font-size: 200%;
+}
+
+#socialMediaText {
+    font-size: 110%;
+    font-weight: 600;
+}
+
 .socialMediaDetails {
     margin-top: 8%;
 }
 
 #mediaLinks {
-    margin-left: 2%;
+    margin-left: 5%;
     text-decoration: none;
 }
 
 .contactDetails {
     margin-bottom: 10%;
 }
+
+#emailMe {
+    font-size: 100%;
+}
+
+#flutterICTImage {
+    margin-left: 25%;
+}
+
+.headerLinks {
+    text-align: center;
+}
+
+#mediaIcon {
+    font-size: 250%;
+}
+
+.fa-facebook {
+    color: rgb(5, 113, 230);
+}
+
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.fa-linkedin {
+    color: rgb(0, 119, 181);
+}
+
+.fa-twitter {
+    color: rgb(80, 171, 241);
+}
+
+.fa-reddit {
+    color: rgb(255, 69, 0);
+}
+
+.fa-github {
+    color: black;
+}
+
+#footerIcon {
+    color: rgb(133, 133, 133);
+    font-size: 220%;
+}
+
+#flutterICTImage {
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
