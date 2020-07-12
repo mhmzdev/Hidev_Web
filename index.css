@@ -271,6 +271,9 @@ div.post {
 
 @media only screen and (max-width: 450px) {
     .post {
+        height: 70rem;
+    }
+    .post {
         top: 2rem;
     }
     .postDesc {
@@ -287,18 +290,30 @@ div.post {
         font-size: 1.2rem;
     }
     #readMoreBtn {
+        margin-top: 1rem;
         width: 12rem;
         height: 3.5rem;
         text-align: center;
-        margin-left: 1rem;
     }
     #readMoreText {
         font-size: 1.2rem;
+    }
+    #blogHeading {
+        font-size: 2.2rem;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .post {
         height: 32rem;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    .footerContainer {
+        height: 7rem;
+    }
+    .headerLinks {
+        margin-top: 2rem;
     }
 }
