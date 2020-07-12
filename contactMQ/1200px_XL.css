@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1200px) {
+    #contactImage {
+        margin-top: 40%;
+    }
+    #contactMeHeading {
+        color: rgb(1, 87, 155) !important;
+        font-weight: bold;
+        font-size: 280%;
+    }
+    #tagline {
+        font-size: 150%;
+        padding-left: 2%;
+        border-left: 0.2rem solid rgb(1, 87, 155) !important;
+    }
+    #mediaLinks {
+        margin-left: 5%;
+    }
+}

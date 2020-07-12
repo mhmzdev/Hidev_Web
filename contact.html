@@ -15,7 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
 
     <!-- Media Query Files -->
-    <link rel="stylesheet" href="contactMQ/576px_and_Less.css">
+    <link rel="stylesheet" href="contactMQ/576px_XS.css">
+    <link rel="stylesheet" href="contactMQ/576px_768px_S.css">
+    <link rel="stylesheet" href="contactMQ/768px_992px_M.css">
+    <link rel="stylesheet" href="contactMQ/992px_1200px_L.css">
+    <link rel="stylesheet" href="contactMQ/1200px_XL.css">
 
     <!-- For Scroll on Top Icon -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -54,10 +58,10 @@
 
     <div class="container-fluid" style="position: absolute;">
         <div class="row">
-            <div class="mobileImage col-lg-9 col-9" style="margin-top: 8%;">
+            <div class="mobileImage col-9 col-sm-9 col-md-10 col-lg-10" style="margin-top: 8%;">
                 <img src="images/fourMobile.png" width="100%">
             </div>
-            <div class="solutionImage col-lg-2 col-3">
+            <div class="solutionImage col-3 col-sm-3 col-md-2 col-lg-2">
                 <img src="images/mobileSolutoin.png" width="100%">
             </div>
         </div>
@@ -70,7 +74,7 @@
     <div class="container-fluid">
         <div class="row">
 
-            <aside class="col-1 col-md-1 col-lg-1">
+            <aside class="col-1 col-sm-1 col-md-1 col-lg-1">
             </aside>
 
             <section class="contactDetails col-12 col-sm-10 col-md-10 col-lg-10">
@@ -79,16 +83,23 @@
                     <p>Have awesome idea? Want to know more about our work?
                         <br>Contact us and let's make beautiful apps together!</p>
                 </div>
-                <img id="contactImage" src="images/contactImage.jpg" width="50%">
 
-                <div class="contactForm">
-                    <h3>Contact Form</h3> <br>
-                    <form class="form" action="">
-                        <input class="form-control" type="text" id="fname" name="fname" placeholder="Name">
-                        <input class="form-control" type="email" id="femail" name="femail" placeholder="Email Address">
-                        <textarea class="form-control" name="fmessage" id="fmessage" cols="30" rows="7"
-                            placeholder="Your Message"></textarea>
-                    </form>
+                <div class="row">
+                    <div class="contactForm col-md-6 col-lg-6">
+                        <h3>Contact Form</h3> <br>
+                        <form class="form" action="">
+                            <input class="form-control" type="text" id="fname" name="fname" placeholder="Name">
+                            <input class="form-control" type="email" id="femail" name="femail"
+                                placeholder="Email Address">
+                            <textarea class="form-control" name="fmessage" id="fmessage" cols="30" rows="7"
+                                placeholder="Your Message"></textarea>
+                        </form>
+                    </div>
+                    <div class="col-md-1 col-lg-1"></div>
+                    <div class="col-md-5 col-lg-5">
+                        <img id="contactImage" src="images/contactImage.jpg" width="100%" height="auto">
+                    </div>
+
                 </div>
                 <div class="socialMediaDetails col-xs-12 col-sm-12 col-md-12 col-lg-12 col-12">
                     <h2 id="contactMeHeading">Don't like forms?</h2>
@@ -131,15 +142,15 @@
     <footer class="container-fluid footerContainer">
         <div class="row">
 
-            <div class="col-4 col-sm-2 col-md-2 col-lg-2 FlutterIslamabadPakistan">
+            <div class="col-4 col-sm-2 col-md-2 col-lg-3 col-xl-2 FlutterIslamabadPakistan">
                 <a style="text-decoration: none;" target="_blank" href="https://facebook.com/FlutterIslamabadPakistan">
                     <img id="flutterICTImage" src="images/flutterIsl.png">
                 </a>
             </div>
-            <div class="col-8 col-sm-4 col-md-4 col-lg-6" style="text-align: center;">
+            <div class="copyrightDiv col-8 col-sm-4 col-md-6 col-lg-5 col-xl-5" style="text-align: center;">
                 <p id="copyright">&copy;Hidev | Muhammad Hamza | 2020</p>
             </div>
-            <div class="col-10 col-sm-5 col-md-4 col-lg-4 headerLinks" >
+            <div class="headerLinks col-10 col-sm-5 col-md-4 col-lg-4 col-xl-5">
                 <a id="headLink" target="_blank" href="https://medium.com/@hamza.6.shakeel">
                     <i id="footerIcon" class="fa fa-medium" aria-hidden="true"></i>
                 </a>

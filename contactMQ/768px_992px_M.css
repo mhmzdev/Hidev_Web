@@ -1,0 +1,8 @@
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .copyrightDiv {
+        text-align: center;
+    }
+    #contactImage {
+        margin-top: 50%;
+    }
+}
