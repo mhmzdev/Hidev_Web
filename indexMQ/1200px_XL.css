@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1200px) {
+    .post {
+        padding-bottom: 5%;
+    }
+    #readMoreBtn {
+        width: 40%;
+        height: 13.5%;
+    }
+    #blogHeading {
+        font-size: 500%;
+    }
+    #flutterICTImage {
+        width: 50%;
+        margin-left: 20%;
+    }
+}

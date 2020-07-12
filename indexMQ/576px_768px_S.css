@@ -1,0 +1,6 @@
+@media only screen and (min-width: 650px) and (max-width: 768px) {
+    #flutterICTImage {
+        height: auto;
+        width: 60%;
+    }
+}

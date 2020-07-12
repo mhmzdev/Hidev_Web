@@ -1,0 +1,16 @@
+@media only screen and (min-width: 993px) {
+    #postText {
+        font-size: 100%;
+    }
+
+    #readMoreBtn {
+        height: 20%;
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    #flutterICTImage {
+        height: auto;
+        width: 75%;
+    }
+}

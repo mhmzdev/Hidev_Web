@@ -2,4 +2,16 @@
     #contactImage {
         margin-top: 30%;
     }
+    #flutterICTImage {
+        width: 60%;
+    }
+    .footerContainer {
+        padding-top: 0%;
+    }
+    #copyright {
+        margin-top: 5%;
+    }
+    .headerLinks {
+        margin-top: 2%;
+    }
 }

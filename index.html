@@ -17,6 +17,10 @@
 
     <!-- Media Query Files -->
     <link rel="stylesheet" href="indexMQ/576px_XS.css">
+    <link rel="stylesheet" href="indexMQ/576px_768px_S.css">
+    <link rel="stylesheet" href="indexMQ/768px_992px_M.css">
+    <link rel="stylesheet" href="indexMQ/992px_1200px_L.css">
+    <link rel="stylesheet" href="indexMQ/1200px_XL.css">
 
     <!-- Other scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -60,7 +64,14 @@
                     <a href="about.html" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="projects.html" class="nav-link">Projects</a>
+                    <a href="#" class="dropdown-toggle nav-link" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Portfolio</a>
+
+                    <div aria-labelledby="dropdownMenuLink" class="dropdown-menu dropdown-menu-right"
+                        aria-labelledby="dropdownMenuLink">
+                        <a id="nameLink" class="dropdown-item" href="https://github.com/m-hamzashakeel">Hamza</a>
+                        <a id="nameLink" class="dropdown-item" href="https://talhafarooq.artstation.com/">Talha</a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -87,13 +98,13 @@
 
     <div class="blogs container-fluid">
         <div class="row">
-            <div class="col-1 col-lg-1 col-sm-1"></div>
-            <div class="post col-10 col-lg-10 col-sm-10">
+            <div class="col-1 col-lg-1 col-sm-1 col-md-1 col-xl-1"></div>
+            <div class="post col-10 col-md-10 col-sm-10 col-lg-10 col-xl-10">
                 <div class="row">
-                    <div class="col-12 col-lg-5 col-md-11 col-sm-11 imgDiv">
+                    <div class="imgDiv col-12 col-sm-11 col-md-11 col-lg-12 col-xl-4">
                         <img id="postImg" src="images/NavigationRail.png" width="100%" height="auto">
                     </div>
-                    <div class="col-11 col-lg-6 col-md-11 col-sm-11 postDesc"
+                    <div class="postDesc col-11 col-sm-11 col-md-11 col-lg-11 col-xl-7"
                         style="margin-top: 50px; margin-left: 20px;">
                         <h3 id="postTopic" style="font-weight: 800;">Navigation Rail Widget - Flutter v1.17</h3>
                         <p id="postedBy">by Muhammad Hamza | May 18, 2020 | Flutter</p>
@@ -124,15 +135,15 @@
     <footer class="container-fluid footerContainer">
         <div class="row">
 
-            <div class="col-4 col-sm-2 col-md-2 col-lg-3 col-xl-2 FlutterIslamabadPakistan">
+            <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2 FlutterIslamabadPakistan">
                 <a style="text-decoration: none;" target="_blank" href="https://facebook.com/FlutterIslamabadPakistan">
                     <img id="flutterICTImage" src="images/flutterIsl.png">
                 </a>
             </div>
-            <div class="copyrightDiv col-8 col-sm-4 col-md-6 col-lg-5 col-xl-5" style="text-align: center;">
+            <div class="copyrightDiv col-8 col-sm-5 col-md-6 col-lg-6" style="text-align: center;">
                 <p id="copyright">&copy;Hidev | Muhammad Hamza | 2020</p>
             </div>
-            <div class="headerLinks col-10 col-sm-5 col-md-4 col-lg-4 col-xl-5">
+            <div class="headerLinks col-10 col-sm-4 col-md-4 col-lg-4">
                 <a id="headLink" target="_blank" href="https://medium.com/@hamza.6.shakeel">
                     <i id="footerIcon" class="fa fa-medium" aria-hidden="true"></i>
                 </a>

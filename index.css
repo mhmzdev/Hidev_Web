@@ -10,13 +10,13 @@
 }
 
 nav .navbar-nav li a {
-    color: white !important;
+    color: rgb(1, 87, 155) !important;
     font-weight: bold;
     font-size: 18px;
 }
 
 nav .navbar-nav li a:hover {
-    color: rgb(1, 87, 155) !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 nav .navbar-nav li a:focus {
@@ -36,11 +36,11 @@ nav .navbar-nav li a:active {
 #blogHeading {
     color: rgb(1, 87, 155) !important;
     font-weight: bold;
-    font-size: 220%;
+    font-size: 250%;
 }
 
 .blogs {
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .post {
@@ -77,11 +77,12 @@ div.post {
     margin-top: 10rem;
     height: 5rem;
     position: absolute;
+    padding-top: 1%;
 }
 
 #flutterICTImage {
     height: auto;
-    width: 100%;
+    width: 90%;
 }
 
 #copyright {
@@ -92,6 +93,10 @@ div.post {
 #footerIcon {
     color: rgb(133, 133, 133);
     font-size: 220%;
+}
+
+.headerLinks {
+    text-align: center;
 }
 
 #headLink {

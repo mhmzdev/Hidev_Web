@@ -1,0 +1,12 @@
+@media only screen and (min-width: 767px) {
+    #readMoreBtn {
+        height: 12%;
+    }
+}
+
+@media only screen and (min-width: 870px) {
+    #flutterICTImage {
+        height: auto;
+        width: 80%;
+    }
+}
