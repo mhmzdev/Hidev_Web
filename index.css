@@ -279,10 +279,6 @@ div.post {
     .postDesc {
         top: 8rem;
     }
-    #headLinkImg {
-        height: auto;
-        width: 1.7rem;
-    }
     #postedBy {
         font-size: 1rem;
     }
@@ -301,6 +297,21 @@ div.post {
     #blogHeading {
         font-size: 2.2rem;
     }
+    .footerContainer {
+        height: 8rem;
+    }
+    .headerLinks {
+        margin-top: 5rem;
+        position: absolute;
+        margin-left: 3rem;
+    }
+    #headLink {
+        margin-left: 2rem;
+    }
+    #headLinkImg {
+        height: auto;
+        width: 12%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -309,11 +320,23 @@ div.post {
     }
 }
 
-@media only screen and (min-width: 390px) {
+@media only screen and (max-width: 390px) {
     .footerContainer {
-        height: 7rem;
+        height: 8rem;
+    }
+    .post {
+        height: 75rem;
     }
     .headerLinks {
-        margin-top: 2rem;
+        margin-top: 5rem;
+        position: absolute;
+        margin-left: 3rem;
+    }
+    #headLink {
+        margin-left: 2rem;
+    }
+    #headLinkImg {
+        height: auto;
+        width: 12%;
     }
 }
