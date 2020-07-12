@@ -3,3 +3,9 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 390px) {
+    .fa-reddit{
+        margin-top: 5%;
+    }
+}
