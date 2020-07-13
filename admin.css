@@ -1,0 +1,78 @@
+#hidevHeading {
+    color: white;
+    font-size: 6vw;
+    font-family: 'Kalam', cursive;
+}
+
+#mobSolution {
+    color: rgb(84, 197, 248);
+    font-size: 2vw;
+    font-family: 'Kalam', cursive;
+}
+
+#blogHeading {
+    font-size: 4vw;
+    color: rgb(255, 255, 255) !important;
+}
+
+#happyFluttering {
+    font-size: 3vw;
+    color: rgb(84, 197, 248);
+    font-family: 'Kalam', cursive;
+}
+
+.name {
+    margin-top: 2%;
+    text-align: center;
+    padding: 1%;
+}
+
+.adminLogin {
+    position: absolute;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.loginForm {
+    padding: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-top: 3%;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bottomText {
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.form-control {
+    margin-top: 5%;
+}
+
+.btn-primary {
+    margin-top: 5%;
+    width: 80%;
+    border-radius: 12px;
+    border-color: rgb(84, 197, 248);
+    background-color: rgb(84, 197, 248);
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: rgb(1, 87, 155);
+}
+
+@media only screen and (max-width: 576px) {
+    .loginForm {
+        margin-top: 5%;
+        height: 20rem;
+    }
+    .btn-primary {
+        font-size: 4vw;
+    }
+}
