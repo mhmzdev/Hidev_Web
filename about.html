@@ -84,11 +84,10 @@
 
     <div class="container-fluid" style="position: absolute;">
         <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="mobileImage col-lg-9 col-10" style="margin-top: 8%;">
+            <div class="mobileImage col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10" style="margin-top: 8%;">
                 <img src="images/fourMobile.png" width="100%">
             </div>
-            <div class="solutionImage col-lg-2 col-2">
+            <div class="solutionImage col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
                 <img src="images/mobileSolutoin.png" width="100%">
             </div>
         </div>
@@ -99,70 +98,70 @@
     </div>
 
     <div class="flutterBackImage">
-        <img src="images/flutter.png" width="80%">
+        <img id="flutterLogo" src="images/flutter.png">
     </div>
 
-    <div class="container-fluid">
+    <section class="container-fluid">
         <div class="row">
-            <aside class="solutionImage col-lg-2"></aside>
+            <aside class="col-1 col-sm-1 col-md-1 col-lg-1"></aside>
 
-            <section class="aboutMeContainer col-lg-10">
+            <div class="aboutMeContainer col-10 col-sm-10 col-md-11 col-lg-10">
                 <h1 id="contactMeHeading">About Me</h1>
 
                 <div class="container-fluid aboutMe">
                     <div class="row">
-                        <div class="myPicture col-lg-2">
-                            <img src="images/myPic.png" width="100%" alt="">
+                        <div class="col-4 col-lg-1 col-xl-1"></div>
+                        <div class="myPicture col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+                            <img id="pic" src="images/myPic.png">
                         </div>
-
-                        <div class="aboutMeText col-lg-7">
-                            <p style="font-size: 1.4vw; text-align: justify;">Founder to Hidev and Flutter Islamabad,
+                        <div class="aboutMeDiv col-12 col-sm-12 col-md-11 col-lg-8 col-xl-8">
+                            <p id="aboutMeText">Founder to Hidev and Flutter
+                                Islamabad,
                                 Pakistan. Self-taught flutter developer. Writing
-                                technical blogs on Medium as well. Loves to help and share knowledge regarding any
-                                technology including Flutter, Dart, HTML, CSS, Bootstrap etc.
+                                technical blogs on Medium and open source contributor on GitHub. Loves to help and share
+                                knowledge regarding technology like Flutter, Dart, Firebase, HTML, CSS, Bootstrap etc.
                                 <br><br> Enjoy and Happy Fluttering :)</p>
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid statsContainer">
+                <div class="container statsContainer">
                     <div class="row">
-                        <div class="statsType">
+                        <div class="statsType col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                             <h3 id="statsCounter">8</h3>
                             <p id="statsDescription">Open Source Project</p>
                         </div>
-                        <div class="statsType">
+                        <div class="statsType col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                             <h3 id="statsCounter">1</h3>
                             <p id="statsDescription">Real World App</p>
                         </div>
-                        <div class="statsType">
+                        <div class="statsType col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
                             <h3 id="statsCounter">9</h3>
                             <p id="statsDescription">Technical Post</p>
                         </div>
-                        <div class="statsType">
-                            <h3 id="statsCounter">8 <span style="font-size: 1vw;">Months</span> </h3>
+                        <div class="statsType col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                            <h3 id="statsCounter">8 <span style="font-size: 40%;">Months</span> </h3>
                             <p id="statsDescription">Flutter Experience</p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
         </div>
-    </div>
+    </section>
 
     <div class="myOfferingBack">
-        <img src="images/aboutBack.png" width="100%">
+        <img id="offerBlueBack" src="images/aboutBack.png" width="100%">
     </div>
 
     <div class="container-fluid myOfferings">
-        <div class="offeringsText">
+        <div class="offeringsText col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="text-align: center;">
             <h3 id="MyOfferings">My Offerings</h3>
             <p id="description">I am not a professional flutter developer but I can be of some help to you.</p>
         </div>
 
         <div class="container-fluid offerings">
             <div class="row">
-                <div class="col-lg-1" style="margin-left: 5%;"></div>
-                <div class="offeringContainer col-lg-4">
+                <div class="offeringContainer uiux col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
                     <div style="text-align: center;"><img src="images/offerings/ui.PNG" width="15%"></div><br>
                     <p id="offeringType">UI/UX Designing</p>
                     <p id="offeringDesc">Although I mainly a flutter developer but I do care about the UI/UX for my
@@ -170,29 +169,28 @@
                         do UI designing for applications.
                         So, feel free to ask me for getting you UI/UX for your apps</p>
                 </div>
-                <div class="col-lg-1"></div>
-                <div class="offeringContainer appDevelopment col-lg-4">
+                <div class="col-sm-1 col-md-1 col-lg-1"></div>
+                <div class="offeringContainer appDevelopment col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
                     <div style="text-align: center;"><img src="images/offerings/app.PNG" width="15%"></div><br>
                     <p id="offeringType">Full App Development</p>
                     <p id="offeringDesc">For now, I can only develop Android Apps using Flutter, that's because I don't
                         own a MacBook right now so can't test or debug apps for iOS.
                         Hopefully this missing piece will be filled in future :)</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="offeringContainer prototype col-lg-4">
-                    <div style="text-align: center;"><img src="images/offerings/prototype.PNG" width="15%"></div><br>
+                <div class="col-lg-3"></div>
+                <div class="offeringContainer prototype col-12 col-sm-12 col-md-11 col-lg-6 col-xl-6">
+                    <div style="text-align: center;"><img src="images/offerings/prototype.PNG" width="15%"></div>
                     <p id="offeringType">Rapid Prototyping</p>
                     <p id="offeringDesc">Having a startup idea? Or maybe just want a prototype for your clients? With
                         Flutter I can get you basic version of your app in no time.</p>
                 </div>
             </div>
+
         </div>
 
         <div class="container socialLinks">
             <div style="margin-top: 2%; text-align: center;">
-                <h5 style="font-size: 1.3vw;">Wanna Connect?</h5><br>
+                <h5>Wanna Connect?</h5><br>
                 <a id="mediaLinks" target="_blank" href="https://facebook.com/hamza.maddog">
                     <i id="mediaIcon" class="fa fa-facebook-square" aria-hidden="true"></i>
                 </a>
@@ -215,6 +213,36 @@
         </div>
     </div>
 
+    <footer class="container-fluid footerContainer">
+        <div class="row">
+
+            <div class="col-4 col-sm-3 col-md-2 col-lg-3 col-xl-3 FlutterIslamabadPakistan">
+                <a style="text-decoration: none;" target="_blank" href="https://facebook.com/FlutterIslamabadPakistan">
+                    <img id="flutterICTImage" src="images/flutterIsl.png">
+                </a>
+            </div>
+            <div class="copyrightDiv col-8 col-sm-4 col-md-6 col-lg-5 col-xl-5" style="text-align: center;">
+                <p id="copyright">&copy;Hidev | Muhammad Hamza | 2020</p>
+            </div>
+            <div class="headerLinks col-11 col-sm-5 col-md-4 col-lg-4 col-xl-4">
+                <a id="headLink" target="_blank" href="https://medium.com/@hamza.6.shakeel">
+                    <i id="footerIcon" class="fa fa-medium" aria-hidden="true"></i>
+                </a>
+                <a id="headLink" target="_blank" href="https://www.linkedin.com/in/m-hamzashakeel/">
+
+                    <i id="footerIcon" class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a id="headLink" target="_blank" href="https://github.com/m-hamzashakeel">
+                    <i id="footerIcon" class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div id="up" class="up">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+
+        </div>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>

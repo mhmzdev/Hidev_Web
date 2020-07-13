@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1201px) {
+    .statsContainer {
+        padding-bottom: 0%;
+    }
+    .statsType {
+        padding-bottom: 5%;
+    }
+    .uiux {
+        margin-left: 5%;
+    }
+    .offeringContainer {
+        margin-top: 5%;
+    }
+    #flutterICTImage {
+        height: auto;
+        width: 50%;
+    }
+    #copyright {
+        margin-top: 5%;
+    }  
+    .headerLinks {
+        margin-top: 2%;
+    }
+    .footerContainer {
+        height: 15%;
+    }
+}

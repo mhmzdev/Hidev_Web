@@ -1,37 +1,64 @@
 .flutterBackImage {
-    width: fit-content;
     position: absolute;
     opacity: 0.3;
     right: 0;
+}
+
+.aboutMeContainer {
+    margin-top: 10%;
+}
+
+#flutterLogo {
+    height: auto;
+    width: 80%;
+    margin-top: 10%;
+    float: right;
 }
 
 .myPicture {
     margin-top: 3.5%;
 }
 
-.aboutMeText {
-    margin-top: 2%;
+#pic {
+    height: auto;
+    width: 100%;
+}
+
+.aboutMeDiv {
+    margin-top: 5%;
     margin-left: 5%;
-    border-left: 0.2vw solid rgb(1, 87, 155) !important;
+    border-left: 0.1rem solid rgb(1, 87, 155) !important;
+}
+
+#aboutMeText {
+    font-size: 100%;
+    text-align: justify;
 }
 
 .statsContainer {
-    margin-top: 10%;
+    padding: 3%;
+    padding-bottom: 10%;
+    margin-top: 25%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .statsType {
-    margin-left: 10%;
     width: fit-content;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 15%;
 }
 
 #statsCounter {
-    font-size: 3vw;
+    font-size: 280%;
     text-align: center;
     color: rgb(1, 87, 155) !important;
 }
 
 #statsDescription {
-    font-size: 1.2vw;
+    font-size: 120%;
     font-weight: bold;
 }
 
@@ -42,7 +69,6 @@
 
 .myOfferings {
     margin-top: 25%;
-    position: absolute;
 }
 
 .offeringsText {
@@ -51,15 +77,15 @@
 
 #MyOfferings {
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 4vw;
+    font-size: 4vh;
 }
 
 #description {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.7vh;
 }
 
 .offerings {
@@ -71,26 +97,26 @@
     padding: 3%;
     background-color: white;
     border-radius: 10px;
+    margin-top: 10%;
 }
 
 #offeringType {
     text-align: center;
     font-weight: 600;
     letter-spacing: 3px;
-    font-size: 1.2vw;
+    font-size: 150%;
 }
 
 #offeringDesc {
-    font-size: 1.1vw;
+    font-size: 100%;
     text-align: center;
     color: grey;
 }
 
-.prototype {
-    margin-top: 3%;
+h5 {
+    font-size: 150%;
 }
 
 .socialLinks {
     margin-top: 10%;
-    margin-bottom: 10%;
 }

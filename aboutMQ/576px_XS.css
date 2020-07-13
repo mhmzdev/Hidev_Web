@@ -1,0 +1,26 @@
+@media only screen and (max-width: 576px) {
+    .myOfferingBack {
+        display: none;
+    }
+    #MyOfferings {
+        font-size: 200%;
+        color: black;
+    }
+    #description {
+        font-size: 100%;
+        color: black;
+    }
+    #flutterICTImage {
+        height: auto;
+        width: 80%;
+    }
+    .copyrightDiv {
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .fa-reddit {
+        margin-top: 5%;
+    }
+}

@@ -10,7 +10,16 @@
         font-size: 500%;
     }
     #flutterICTImage {
-        width: 50%;
+        width: 80%;
         margin-left: 20%;
+    }
+    .headerLinks {
+        margin-top: 2%;
+    }
+    #copyright {
+        margin-top: 4%;
+    }
+    #footerIcon {
+        font-size: 280%;
     }
 }

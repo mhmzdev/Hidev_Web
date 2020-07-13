@@ -1,0 +1,14 @@
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .statsContainer {
+        padding-bottom: 0%;
+    }
+    .uiux {
+        margin-left: 5%;
+    }
+    .prototype {
+        margin-left: 5%;
+    }
+    .footerContainer {
+        height: 12%;
+    }
+}
