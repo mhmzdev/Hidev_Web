@@ -67,7 +67,10 @@
     background-color: rgb(1, 87, 155);
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
+    .adminLogin {
+        margin-top: 40%;
+    }
     .loginForm {
         margin-top: 5%;
         height: 20rem;
@@ -79,6 +82,13 @@
         font-size: 6vw;
     }
     #blogHeading {
+        font-size: 5vw;
+        color: black !important;
+    }
+    #hidevHeading {
+        font-size: 10vw;
+    }
+    #mobSolution {
         font-size: 5vw;
     }
 }
