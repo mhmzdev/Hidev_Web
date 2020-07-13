@@ -1,0 +1,22 @@
+#blogHeading {
+    padding-top: 3%;
+    font-size: 5vw;
+}
+
+.titleField {
+    margin-top: 5%;
+    display: block;
+}
+
+.form-control {
+    margin-top: 2%;
+    border-width: 0px;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+.title {
+    font-size: 32px;
+}

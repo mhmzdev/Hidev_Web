@@ -12,6 +12,7 @@
 
     <title>Make Beautiful Apps - Hidev</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="newStory.css">
     <link rel="icon" href="images/hidevIcon.png" type="image/icon type">
 
     <!-- Media Query Files -->
@@ -91,94 +92,15 @@
         </div>
     </nav>
 
-    <header class="container-fluid" style="position: absolute;">
-        <div class="row">
-            <div class="mobileImage col-10 col-sm-10 col-md-10 col-lg-10 " style="margin-top: 8%;">
-                <img src="images/fourMobile.png" width="100%">
-            </div>
-            <div class="solutionImage col-2 col-sm-2 col-md-2 col-lg-2 ">
-                <img src="images/mobileSolutoin.png" width="100%">
-            </div>
-        </div>
-    </header>
+    <div class="body container-fluid">
+        <div id="blogHeading">New Story</div>
 
-    <div class="blueWaveImage">
-        <img src="images/blueWave.png" width="100%">
+        <div class="titleField">
+            <input class="form-control title" type="text" id="ftitle" name="ftitle" placeholder="Title">
+            <textarea class="form-control story"  name="Text1" cols="40" rows="5" placeholder="Tell your story" ></textarea>
+        </div>
     </div>
 
-    <div class="blogHeadingContainer">
-        <h1 id="blogHeading">Blog</h1>
-    </div>
-
-    <div class="blogs container-fluid">
-        <div class="row">
-            <div class="col-1 col-lg-1 col-sm-1 col-md-1 col-xl-1"></div>
-            <div class="post col-10 col-md-10 col-sm-10 col-lg-10 col-xl-10">
-                <div class="row">
-                    <div class="imgDiv col-12 col-sm-11 col-md-11 col-lg-12 col-xl-4">
-                        <img id="postImg" src="images/NavigationRail.png" width="100%" height="auto">
-                    </div>
-                    <div class="postDesc col-11 col-sm-11 col-md-11 col-lg-11 col-xl-7"
-                        style="margin-top: 50px; margin-left: 20px;">
-                        <h3 id="postTopic" style="font-weight: 800;">Navigation Rail Widget - Flutter v1.17</h3>
-                        <p id="postedBy">by Muhammad Hamza | May 18, 2020 | Flutter</p>
-                        <p id="postText"><br>Few lines from the Blog or any other description will be
-                            added here. This will help the user to see what this Blog
-                            is all about before directly clicking into it. This is nothing but just
-                            testing text to make the site responsive on various screen sizes
-                            Hello there my name is hidev solution site and I am a personal blog
-                            as well. Few lines from the Blog or any other description will be
-                            added here. This will help the user to see what this Blog
-                            is all about before directly clicking into it. This is nothing but just
-                            testing text to make the site responsive on various screen sizes
-                            Hello there my name is hidev solution site and I am a personal blog
-                            as well.</p>
-                        <button type="button" id="readMoreBtn">
-                            <span id="readMoreText" style="font-weight: 700;">Read More</span>
-                        </button>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-1 col-lg-1"></div>
-        </div>
-        <br><br>
-    </div>
-
-    <footer class="container-fluid footerContainer">
-        <div class="row">
-
-            <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2 FlutterIslamabadPakistan">
-                <a style="text-decoration: none;" target="_blank" href="https://facebook.com/FlutterIslamabadPakistan">
-                    <img id="flutterICTImage" src="images/flutterIsl.png">
-                </a>
-            </div>
-            <div class="copyrightDiv col-8 col-sm-5 col-md-6 col-lg-6" style="text-align: center;">
-                <p id="copyright">&copy;Hidev | Muhammad Hamza | 2020</p>
-            </div>
-            <div class="headerLinks col-10 col-sm-4 col-md-4 col-lg-4">
-                <a id="headLink" target="_blank" href="https://medium.com/@hamza.6.shakeel">
-                    <i id="footerIcon" class="fa fa-medium" aria-hidden="true"></i>
-                </a>
-                <a id="headLink" target="_blank" href="https://www.linkedin.com/in/m-hamzashakeel/">
-
-                    <i id="footerIcon" class="fa fa-linkedin-square" aria-hidden="true"></i>
-                </a>
-                <a id="headLink" target="_blank" href="https://github.com/m-hamzashakeel">
-                    <i id="footerIcon" class="fa fa-github" aria-hidden="true"></i>
-                </a>
-            </div>
-
-            <div id="up" class="up">
-                <i class="fas fa-chevron-up"></i>
-            </div>
-
-        </div>
-    </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
