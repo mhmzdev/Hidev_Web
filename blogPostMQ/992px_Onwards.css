@@ -1,0 +1,10 @@
+@media only screen and (min-width: 992px) {
+    .blogText {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .authorInfo {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}

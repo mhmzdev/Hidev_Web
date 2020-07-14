@@ -9,10 +9,14 @@
     font-family: 'Kalam', cursive;
 }
 
+.navbar-brand:hover {
+    color: rgb(1, 87, 155) !important;
+}
+
 nav .navbar-nav li a {
     color: rgb(255, 255, 255) !important;
-    font-weight: bold;
     font-size: 18px;
+    margin-right: 1.5vw;
 }
 
 nav .navbar-nav li a:hover {
@@ -32,6 +36,8 @@ nav .navbar-nav li a:active {
 }
 
 .dropdown-menu {
+    position: absolute;
+    top: 100%;
     background-color: rgb(84, 197, 248);
 }
 
@@ -65,7 +71,7 @@ div.post {
 
 #readMoreBtn {
     border-radius: 20px;
-    padding: 8px;
+    padding: 2px;
     width: 100%;
     height: 8%;
     font-size: 130%;

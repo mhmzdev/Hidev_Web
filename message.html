@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-    <!-- For Mobile responsive -->
+    <!-- For Mobile responsiveness -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,20 +10,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-
     <title>Make Beautiful Apps - Hidev</title>
-    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="message.css">
     <link rel="icon" href="images/hidevIcon.png" type="image/icon type">
 
-    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-
     <!-- Media Query Files -->
-    <link rel="stylesheet" href="contactMQ/576px_XS.css">
-    <link rel="stylesheet" href="contactMQ/576px_768px_S.css">
-    <link rel="stylesheet" href="contactMQ/768px_992px_M.css">
-    <link rel="stylesheet" href="contactMQ/992px_1200px_L.css">
-    <link rel="stylesheet" href="contactMQ/1200px_XL.css">
+    <link rel="stylesheet" href="indexMQ/576px_XS.css">
+    <link rel="stylesheet" href="indexMQ/576px_768px_S.css">
+    <link rel="stylesheet" href="indexMQ/768px_992px_M.css">
+    <link rel="stylesheet" href="indexMQ/992px_1200px_L.css">
+    <link rel="stylesheet" href="indexMQ/1200px_XL.css">
 
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -42,20 +38,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 
+
     <!-- For Scroll on Top Icon -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
     <!-- For 'fa' font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
-
     <nav id="navBar" class="navbar navbar-expand-sm navbar-light myNavBar">
-
         <a href="index.html" class="navbar-brand">Hidev</a>
-
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -97,102 +91,129 @@
         </div>
     </nav>
 
-    <div class="container-fluid" style="position: absolute;">
-        <div class="row">
-            <div class="mobileImage col-9 col-sm-9 col-md-10 col-lg-10" style="margin-top: 8%;">
-                <img src="images/fourMobile.png" width="100%">
-            </div>
-            <div class="solutionImage col-3 col-sm-3 col-md-2 col-lg-2">
-                <img src="images/mobileSolutoin.png" width="100%">
-            </div>
-        </div>
-    </div>
-
-    <div class="blueWaveImage">
-        <img src="images/blueWave.png" width="100%">
-    </div>
-
     <div class="container-fluid">
+        <div class="messageHeading">
+            <h1 id="blogHeading">New Messages</h1>
+        </div>
         <div class="row">
-
-            <aside class="col-1 col-sm-1 col-md-1 col-lg-1">
-            </aside>
-
-            <section class="contactDetails col-12 col-sm-10 col-md-10 col-lg-10">
-                <h1 id="contactMeHeading">Contact Me</h1>
-                <div id="tagline">
-                    <p>Have awesome idea? Want to know more about our work?
-                        <br>Contact us and let's make beautiful apps together!</p>
-                </div>
-
-                <div class="row">
-                    <div class="contactForm col-md-6 col-lg-6">
-                        <h3>Contact Form</h3> <br>
-                        <form class="form" action="">
-                            <input class="form-control" type="text" id="fname" name="fname" placeholder="Name">
-                            <input class="form-control" type="email" id="femail" name="femail"
-                                placeholder="Email Address">
-                            <textarea class="form-control" name="fmessage" id="fmessage" cols="30" rows="7"
-                                placeholder="Your Message"></textarea>
-                        </form>
-                        <button class="btn btn-primary">Submit</button>
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+            <div class="messagesList col-12 col-sm-11 col-md-11 col-lg-10 col-xl-10">
+                <div class="message col-11 col-sm-11 col-md-11 col-lg-10 col-xl-10">
+                    <div class="delBtn">
+                        <button class="btn btn-danger">
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                        </button>
                     </div>
-                    <div class="col-md-1 col-lg-1"></div>
-                    <div class="col-md-5 col-lg-5">
-                        <img id="contactImage" src="images/contactImage.jpg" width="100%" height="auto">
+                    <div class="row nameRow">
+                        <div class="name">
+                            <p id="att">Name: </p>
+                        </div>
+                        <div class="userName userAtt">
+                            <p id="userName"> Muhammad Hamza</p>
+                        </div>
+
                     </div>
-
-                </div>
-                <div class="socialMediaDetails col-xs-12 col-sm-12 col-md-12 col-lg-12 col-12">
-                    <h2 id="contactMeHeading">Don't like forms?</h2>
-                    <p id="socialMediaText">Connect on Social Media</p>
-
-                    <div style="margin-top: 2%; ">
-
-                        <a id="mediaLinks" target="_blank" href="https://facebook.com/hamza.maddog">
-                            <i id="mediaIcon" class="fa fa-facebook-official" aria-hidden="true"></i>
-                        </a>
-                        <a id="mediaLinks" target="_blank" href="https://instagram.com/m_hamzashakeel">
-                            <i id="mediaIcon" class="fa fa-instagram" aria-hidden="true"></i>
-                        </a>
-                        <a id="mediaLinks" target="_blank" href="https://linkedin.com/in/m-hamzashakeel">
-                            <i id="mediaIcon" class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        </a>
-                        <a id="mediaLinks" target="_blank" href="https://twitter.com/m_hamzashakeel">
-                            <i id="mediaIcon" class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a id="mediaLinks" target="_blank" href="https://reddit.com/user/m_hamzashakeel">
-                            <i id="mediaIcon" class="fa fa-reddit" aria-hidden="true"></i>
-                        </a>
-                        <a id="mediaLinks" target="_blank" href="https://github.com/m-hamzashakeel">
-                            <i id="mediaIcon" class="fa fa-github" aria-hidden="true"></i>
-                        </a>
-                        <br><br><br>
-
-                        <span id="emailMe" style="font-weight: 600;">Email Me</span>
-                        <br><br>
-                        <i id="mediaIcon" class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <a style="text-decoration: none; margin-left: 2%;" target="_blank"
-                            href="https://mail.google.com/mail/?view=cm&fs=1&to=hamza.6.shakeel@gmail.com">
-                            <span style="margin-left: 1%;">hamza.6.shakeel@gmail.com</span>
-                        </a>
+                    <div class="row">
+                        <div class="emailAddress">
+                            <p id="att">Email Address:</p>
+                        </div>
+                        <div class="useremailAddress userAtt">
+                            <p id="useremailAddress">hamza.6.shakeel@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="messageText">
+                            <p id="att">Message: </p>
+                        </div>
+                        <div class="userMessage userAtt">
+                            <p id="userMessage">I'm a testing message. This is how the user message will appear if
+                                he/she
+                                wants to contact with us using the contact form on 'Contact Us' tab.</p>
+                        </div>
                     </div>
                 </div>
-            </section>
+                <div class="message col-11 col-sm-11 col-md-11 col-lg-10 col-xl-10">
+                    <div class="delBtn">
+                        <button class="btn btn-danger">
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="name">
+                            <p id="att">Name: </p>
+                        </div>
+                        <div class="userName userAtt">
+                            <p id="userName"> Muhammad Talha</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="emailAddress">
+                            <p id="att">Email Address:</p>
+                        </div>
+                        <div class="useremailAddress userAtt">
+                            <p id="useremailAddress">talhadevil4@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="messageText">
+                            <p id="att">Message: </p>
+                        </div>
+                        <div class="userMessage userAtt">
+                            <p id="userMessage">I'm a testing message. This is how the user message will appear if
+                                he/she
+                                wants to contact with us using the contact form on 'Contact Us' tab.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="message col-11 col-sm-11 col-md-11 col-lg-10 col-xl-10">
+                    <div class="delBtn">
+                        <button class="btn btn-danger">
+                            <i class="fa fa-trash" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="row">
+                        <div class="name">
+                            <p id="att">Name: </p>
+                        </div>
+                        <div class="userName userAtt">
+                            <p id="userName"> Asnan Ashfaq</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="emailAddress">
+                            <p id="att">Email Address:</p>
+                        </div>
+                        <div class="useremailAddress userAtt">
+                            <p id="useremailAddress">18asnan@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="messageText">
+                            <p id="att">Message: </p>
+                        </div>
+                        <div class="userMessage userAtt">
+                            <p id="userMessage">I'm a testing message. This is how the user message will appear if
+                                he/she
+                                wants to contact with us using the contact form on 'Contact Us' tab.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
     <footer class="container-fluid footerContainer">
         <div class="row">
 
-            <div class="col-4 col-sm-2 col-md-2 col-lg-3 col-xl-2 FlutterIslamabadPakistan">
+            <div class="col-4 col-sm-3 col-md-2 col-lg-2 col-xl-2 FlutterIslamabadPakistan">
                 <a style="text-decoration: none;" target="_blank" href="https://facebook.com/FlutterIslamabadPakistan">
                     <img id="flutterICTImage" src="images/flutterIsl.png">
                 </a>
             </div>
-            <div class="copyrightDiv col-8 col-sm-4 col-md-6 col-lg-5 col-xl-5" style="text-align: center;">
+            <div class="copyrightDiv col-8 col-sm-5 col-md-6 col-lg-6" style="text-align: center;">
                 <p id="copyright">&copy;Hidev | Muhammad Hamza | 2020</p>
             </div>
-            <div class="headerLinks col-10 col-sm-5 col-md-4 col-lg-4 col-xl-5">
+            <div class="headerLinks col-10 col-sm-4 col-md-4 col-lg-4">
                 <a id="headLink" target="_blank" href="https://medium.com/@hamza.6.shakeel">
                     <i id="footerIcon" class="fa fa-medium" aria-hidden="true"></i>
                 </a>
@@ -211,6 +232,7 @@
 
         </div>
     </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>

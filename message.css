@@ -1,0 +1,41 @@
+.messageHeading {
+    width: fit-content;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#blogHeading {
+    font-size: 6vw;
+}
+
+.messagesList {
+    margin-top: 10%;
+}
+
+.message { 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: 1px solid black;
+}
+
+#att {
+    font-weight: bold;
+}
+
+.userAtt {
+    margin-left: 3%;
+}
+
+#userMessage {
+    text-align: justify;
+}
+
+p {
+    overflow-wrap: break-word;
+}
+
+.delBtn {
+    right: 0;
+    float: right;
+    position: absolute;
+}

@@ -1,0 +1,67 @@
+#blogHeading {
+    font-size: 4vw;
+}
+
+.blogTitle {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#postImg {
+    height: auto;
+    width: 100%;
+}
+
+#blogMedium {
+    font-size: 4vw;
+    text-decoration: none;
+}
+
+#blogMedium:hover {
+    color: black;
+}
+
+.blogText {
+    padding: 1%;
+    margin-top: 8%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+    text-align: center;
+}
+
+.text {
+    margin-top: 5%;
+    padding: 2%;
+    text-align: justify;
+}
+
+.authorInfo {
+    padding: 2%;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.authorAbout {
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.authorImg {
+    text-align: center;
+}
+
+#authorImg {
+    height: auto;
+    width: 100%;
+}
+
+.cheers {
+    text-align: center;
+    margin-top: 5%;
+}

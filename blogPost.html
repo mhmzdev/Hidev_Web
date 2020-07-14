@@ -12,9 +12,13 @@
 
     <title>Make Beautiful Apps - Hidev</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="blogPost.css">
     <link rel="icon" href="images/hidevIcon.png" type="image/icon type">
 
     <!-- Media Query Files -->
+    <link rel="stylesheet" href="blogPostMQ/992px_Onwards.css">
+
+    <!-- For styling of things copied from Index.html -->
     <link rel="stylesheet" href="indexMQ/576px_XS.css">
     <link rel="stylesheet" href="indexMQ/576px_768px_S.css">
     <link rel="stylesheet" href="indexMQ/768px_992px_M.css">
@@ -47,7 +51,6 @@
 </head>
 
 <body>
-
     <nav id="navBar" class="navbar navbar-expand-sm navbar-light myNavBar">
         <a href="index.html" class="navbar-brand">Hidev</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
@@ -91,61 +94,105 @@
         </div>
     </nav>
 
-    <header class="container-fluid" style="position: absolute;">
-        <div class="row">
-            <div class="mobileImage col-10 col-sm-10 col-md-10 col-lg-10 " style="margin-top: 8%;">
-                <img src="images/fourMobile.png" width="100%">
-            </div>
-            <div class="solutionImage col-2 col-sm-2 col-md-2 col-lg-2 ">
-                <img src="images/mobileSolutoin.png" width="100%">
-            </div>
-        </div>
+    <header class="container-fluid blogTitle">
+        <h1 id="blogHeading">MVC in Flutter App - The Holy Qur'an</h1>
+        <p>by Muhammad Hamza | 24th June, 2020 | Flutter</p>
+        <a id="blogMedium" href="https://itnext.io/mvc-in-flutter-app-the-holy-quran-app-c0fd8ae31d67">Medium <i
+                class="fa fa-medium" aria-hidden="true"></i> </a>
     </header>
 
-    <div class="blueWaveImage">
-        <img src="images/blueWave.png" width="100%">
-    </div>
-
-    <div class="blogHeadingContainer">
-        <h1 id="blogHeading">Blog</h1>
-    </div>
-
-    <div class="blogs container-fluid">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-1 col-lg-1 col-sm-1 col-md-1 col-xl-1"></div>
-            <div class="post col-10 col-md-10 col-sm-10 col-lg-10 col-xl-10">
+            <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-2"></div>
+            <div class="blogText col-10 col-sm-10 col-md-10 col-lg-10 col-xl-8">
+                <div class="image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <img id="postImg" src="images/NavigationRail.png">
+                </div>
+                <div class="text">
+                    <p>Few lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as well. Few lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as wellFew lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as well. Few lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as wellFew lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as well. Few lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as wellFew lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as well. Few lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as wellFew lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as well. Few lines from the Blog or any other description will be
+                        added here. This will help the user to see what this Blog
+                        is all about before directly clicking into it. This is nothing but just
+                        testing text to make the site responsive on various screen sizes
+                        Hello there my name is hidev solution site and I am a personal blog
+                        as well</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-2"></div>
+            <div class="authorInfo col-10 col-sm-10 col-md-10 col-lg-10 col-xl-8">
                 <div class="row">
-                    <div class="imgDiv col-12 col-sm-11 col-md-11 col-lg-12 col-xl-4">
-                        <img id="postImg" src="images/NavigationRail.png" width="100%" height="auto">
-                    </div>
-                    <div class="postDesc col-11 col-sm-11 col-md-11 col-lg-11 col-xl-7"
-                        style="margin-top: 50px; margin-left: 20px;">
-                        <h3 id="postTopic" style="font-weight: 800;">MVC in Flutter App - The Holy Qur'an</h3>
-                        <p id="postedBy">by Muhammad Hamza | June 24, 2020 | Flutter</p>
-                        <p id="postText"><br>Few lines from the Blog or any other description will be
-                            added here. This will help the user to see what this Blog
-                            is all about before directly clicking into it. This is nothing but just
-                            testing text to make the site responsive on various screen sizes
-                            Hello there my name is hidev solution site and I am a personal blog
-                            as well. Few lines from the Blog or any other description will be
-                            added here. This will help the user to see what this Blog
-                            is all about before directly clicking into it. This is nothing but just
-                            testing text to make the site responsive on various screen sizes
-                            Hello there my name is hidev solution site and I am a personal blog
-                            as well.</p>
-                        <button type="button" onclick="window.location.href='blogPost.html'" class="btn btn-primary"
-                            id="readMoreBtn">
-                            <span id="readMoreText" style="font-weight: 500;">Read More</span>
-                        </button>
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-5"></div>
+                    <div class="authorImg col-4 col-sm-4 col-md-3 col-lg-2">
+                        <img id="authorImg" src="images/myPic.png">
                     </div>
 
                 </div>
+                <div class="authorAbout col-12 col-sm-12 col-md-12">
+                    <p>Founder to Hidev and Flutter
+                        Islamabad,
+                        Pakistan. Self-taught flutter developer. Writing
+                        technical blogs on Medium and open source contributor on GitHub. Loves to help and share
+                        knowledge regarding technology like Flutter, Dart, Firebase, HTML, CSS, Bootstrap etc.
+                        Enjoy and Happy Fluttering :)</p>
+                </div>
             </div>
-
-            <div class="col-1 col-lg-1"></div>
         </div>
-        <br><br>
     </div>
+
+    <div class="cheers">
+        <h1 id="blogHeading">
+            Happy Fluttering :)
+        </h1>
+    </div>
+
+    
 
     <footer class="container-fluid footerContainer">
         <div class="row">
