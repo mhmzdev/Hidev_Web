@@ -12,7 +12,12 @@
 
     <title>Make Beautiful Apps - Hidev</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="images/hidevIcon.png" type="image/icon type">
+    <link rel="icon" href="images/siteIcon/hidevIcon.png" type="image/icon type">
+
+    <!-- Required for AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="_animation.css">
 
     <!-- Media Query Files -->
     <link rel="stylesheet" href="indexMQ/576px_XS.css">
@@ -93,17 +98,18 @@
 
     <header class="container-fluid" style="position: absolute;">
         <div class="row">
-            <div class="mobileImage col-10 col-sm-10 col-md-10 col-lg-10 " style="margin-top: 8%;">
-                <img src="images/fourMobile.png" width="100%">
+            <div class="animated animatedFadeInUp fadeInUp mobileImage col-10 col-sm-10 col-md-10 col-lg-10 "
+                style="margin-top: 8%;">
+                <img src="images/svg/fourMobile.svg" width="100%">
             </div>
             <div class="solutionImage col-2 col-sm-2 col-md-2 col-lg-2 ">
-                <img src="images/mobileSolutoin.png" width="100%">
+                <img src="images/svg/mobileSolutoin.svg" width="100%">
             </div>
         </div>
     </header>
 
     <div class="blueWaveImage">
-        <img src="images/blueWave.png" width="100%">
+        <img src="images/svg/blueWave.svg" width="100%">
     </div>
 
     <div class="blogHeadingContainer">
@@ -134,7 +140,7 @@
                             Hello there my name is hidev solution site and I am a personal blog
                             as well.</p>
                         <button type="button" onclick="window.location.href='blogPost.html'" class="btn btn-primary"
-                            id="readMoreBtn">
+                            id="readMoreBtn" data-aos="fade-in" data-aos-delay="100">
                             <span id="readMoreText" style="font-weight: 500;">Read More</span>
                         </button>
                     </div>
@@ -180,6 +186,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

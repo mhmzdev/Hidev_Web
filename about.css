@@ -4,10 +4,6 @@
     right: 0;
 }
 
-.aboutMeContainer {
-    margin-top: 10%;
-}
-
 #flutterLogo {
     height: auto;
     width: 80%;
@@ -37,11 +33,19 @@
 
 .statsContainer {
     padding: 3%;
+    font-weight: bold;
     padding-bottom: 10%;
     margin-top: 25%;
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#exp {
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 10%;
+    color: rgb(1, 87, 155);
 }
 
 .statsType {
@@ -73,6 +77,11 @@
 
 .offeringsText {
     margin-top: 2%;
+}
+
+#offerBlueBack {
+    height: auto;
+    width: 100%;
 }
 
 #MyOfferings {
@@ -119,4 +128,41 @@ h5 {
 
 .socialLinks {
     margin-top: 10%;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(-60px, 0, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 0.3
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(-60px, 0, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
 }

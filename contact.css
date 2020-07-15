@@ -35,7 +35,9 @@
 
 #contactImage {
     position: absolute;
-    right: 5%;
+    right: 20%;
+    height: auto;
+    width: 60%;
 }
 
 #contactMeHeading {

@@ -15,7 +15,10 @@
     <title>Make Beautiful Apps - Hidev</title>
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="images/hidevIcon.png" type="image/icon type">
+    <link rel="icon" href="images/siteIcon/hidevIcon.png" type="image/icon type">
+
+    <!-- Required for AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
 
@@ -105,16 +108,16 @@
     <div class="container-fluid" style="position: absolute;">
         <div class="row">
             <div class="mobileImage col-9 col-sm-9 col-md-10 col-lg-10" style="margin-top: 8%;">
-                <img src="images/fourMobile.png" width="100%">
+                <img src="images/svg/fourMobile.svg" width="100%">
             </div>
             <div class="solutionImage col-3 col-sm-3 col-md-2 col-lg-2">
-                <img src="images/mobileSolutoin.png" width="100%">
+                <img src="images/svg/mobileSolutoin.svg" width="100%">
             </div>
         </div>
     </div>
 
     <div class="blueWaveImage">
-        <img src="images/blueWave.png" width="100%">
+        <img src="images/svg/blueWave.svg" width="100%">
     </div>
 
     <div class="container-fluid">
@@ -124,7 +127,7 @@
             </aside>
 
             <section class="contactDetails col-12 col-sm-10 col-md-10 col-lg-10">
-                <h1 id="contactMeHeading">Contact Me</h1>
+                <h1 id="contactMeHeading" data-aos="fade-in" data-aos-delay="150">Contact Me</h1>
                 <div id="tagline">
                     <p>Have awesome idea? Want to know more about our work?
                         <br>Contact us and let's make beautiful apps together!</p>
@@ -133,53 +136,62 @@
                 <div class="row">
                     <div class="contactForm col-md-6 col-lg-6">
                         <h3>Contact Form</h3> <br>
-                        <form class="form" action="">
-                            <input class="form-control" type="text" id="fname" name="fname" placeholder="Name">
+                        <form action="/contact.html" class="form" action="">
+                            <input class="form-control" type="text" id="fname" name="fname" placeholder="Name" required>
                             <input class="form-control" type="email" id="femail" name="femail"
-                                placeholder="Email Address">
+                                placeholder="Email Address" required>
                             <textarea class="form-control" name="fmessage" id="fmessage" cols="30" rows="7"
-                                placeholder="Your Message"></textarea>
+                                placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
-                        <button class="btn btn-primary">Submit</button>
+
                     </div>
                     <div class="col-md-1 col-lg-1"></div>
                     <div class="col-md-5 col-lg-5">
-                        <img id="contactImage" src="images/contactImage.jpg" width="100%" height="auto">
+                        <img id="contactImage" src="images/svg/contact.svg">
                     </div>
-
                 </div>
+
                 <div class="socialMediaDetails col-xs-12 col-sm-12 col-md-12 col-lg-12 col-12">
                     <h2 id="contactMeHeading">Don't like forms?</h2>
                     <p id="socialMediaText">Connect on Social Media</p>
 
                     <div style="margin-top: 2%; ">
 
-                        <a id="mediaLinks" target="_blank" href="https://facebook.com/hamza.maddog">
+                        <a id="mediaLinks" target="_blank" href="https://facebook.com/hamza.maddog" data-aos="fade-in"
+                            data-aos-delay="80">
                             <i id="mediaIcon" class="fa fa-facebook-official" aria-hidden="true"></i>
                         </a>
-                        <a id="mediaLinks" target="_blank" href="https://instagram.com/m_hamzashakeel">
+                        <a id="mediaLinks" target="_blank" href="https://instagram.com/m_hamzashakeel"
+                            data-aos="fade-in" data-aos-delay="100">
                             <i id="mediaIcon" class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
-                        <a id="mediaLinks" target="_blank" href="https://linkedin.com/in/m-hamzashakeel">
+                        <a id="mediaLinks" target="_blank" href="https://linkedin.com/in/m-hamzashakeel"
+                            data-aos="fade-in" data-aos-delay="150">
                             <i id="mediaIcon" class="fa fa-linkedin-square" aria-hidden="true"></i>
                         </a>
-                        <a id="mediaLinks" target="_blank" href="https://twitter.com/m_hamzashakeel">
+                        <a id="mediaLinks" target="_blank" href="https://twitter.com/m_hamzashakeel" data-aos="fade-in"
+                            data-aos-delay="200">
                             <i id="mediaIcon" class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
-                        <a id="mediaLinks" target="_blank" href="https://reddit.com/user/m_hamzashakeel">
+                        <a id="mediaLinks" target="_blank" href="https://reddit.com/user/m_hamzashakeel"
+                            data-aos="fade-in" data-aos-delay="250">
                             <i id="mediaIcon" class="fa fa-reddit" aria-hidden="true"></i>
                         </a>
-                        <a id="mediaLinks" target="_blank" href="https://github.com/m-hamzashakeel">
+                        <a id="mediaLinks" target="_blank" href="https://github.com/m-hamzashakeel" data-aos="fade-in"
+                            data-aos-delay="300">
                             <i id="mediaIcon" class="fa fa-github" aria-hidden="true"></i>
                         </a>
                         <br><br><br>
 
                         <span id="emailMe" style="font-weight: 600;">Email Me</span>
                         <br><br>
-                        <i id="mediaIcon" class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <a style="text-decoration: none; margin-left: 2%;" target="_blank"
+                        <i id="mediaIcon" class="fa fa-envelope-o" aria-hidden="true" data-aos="fade-in"
+                            data-aos-delay="350"></i>
+                        <a style="text-decoration: none;" target="_blank"
                             href="https://mail.google.com/mail/?view=cm&fs=1&to=hamza.6.shakeel@gmail.com">
-                            <span style="margin-left: 1%;">hamza.6.shakeel@gmail.com</span>
+                            <span style="margin-left: 1%;" data-aos="fade-in"
+                                data-aos-delay="400">hamza.6.shakeel@gmail.com</span>
                         </a>
                     </div>
                 </div>
@@ -218,6 +230,10 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

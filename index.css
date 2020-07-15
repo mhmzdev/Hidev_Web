@@ -19,7 +19,7 @@ nav .navbar-nav li a {
     margin-right: 1.5vw;
 }
 
-.navbar-light .nav-item > .nav-link.active {
+.navbar-light .nav-item>.nav-link.active {
     color: rgb(1, 87, 155) !important;
 }
 
@@ -71,15 +71,15 @@ div.post {
     width: 100%;
     height: 8%;
     font-size: 130%;
-    color: rgb(1, 87, 155) !important;
-    background-color: white;
-    border-color: rgb(84, 197, 248);
+    color: white !important;
+    background-color: rgb(84, 197, 248);
+    border-color: white;
 }
 
 #readMoreBtn:hover {
     color: white !important;
     border-color: rgb(84, 197, 248);
-    background-color: rgb(84, 197, 248);
+    background-color: rgb(1, 87, 155);
 }
 
 .footerContainer {

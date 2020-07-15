@@ -13,7 +13,12 @@
     <title>Make Beautiful Apps - Hidev</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="admin.css">
-    <link rel="icon" href="images/hidevIcon.png" type="image/icon type">
+    <link rel="icon" href="images/siteIcon/hidevIcon.png" type="image/icon type">
+
+    <!-- Required for AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="_animation.css">
 
     <!-- Media Query Files -->
     <link rel="stylesheet" href="adminMQ/576px_XS.css">
@@ -53,7 +58,7 @@
         <div class="row">
             <div class="mobileImage col-md-9 col-lg-9 col-xl-9">
             </div>
-            <div class="name col-12 col-sm-12 col-md-3 col-lg-3 ">
+            <div data-aos="fade-in" data-aos-delay="300" class="name col-12 col-sm-12 col-md-3 col-lg-3 ">
                 <h1 id="hidevHeading">Hidev</h1>
                 <p id="mobSolution">Mobile Solution</p>
             </div>
@@ -61,26 +66,35 @@
     </header>
 
     <section class="container-fluid adminLogin">
-        <h1 id="blogHeading">Admin Login</h1>
+        <h1 data-aos="fade-in" data-aos-delay="500" id="blogHeading">Admin Login</h1>
         <div class="row">
-            <div class="col-1 col-md-3 col-sm-3 col-lg-4 col-xl-4"></div>
-            <div class="loginForm col-10 col-sm-6 col-md-6 col-lg-4 col-xl-4">
-                <p id="info">Enter the Following Information</p>
-                <input class="form-control" type="email" name="fadminEmail" id="fadminEmail"
-                    placeholder="Email Address">
-                <input class="form-control" type="password" name="fadminPass" id="fadminPass" placeholder="Password">
-                <button id="loginBtn" onclick="window.location.href='index.html';"
-                    class="btn btn-primary">Login</button>
+            <div data-aos="fade-in" data-aos-delay="700" class="col-2 col-md-3 col-sm-3 col-lg-4 col-xl-4">
+                <img id="mob2" src="images/svg/smartphone.svg" alt="">
             </div>
-        </div>
-        <div class="bottomText">
-            <h3 id="happyFluttering">Happy Fluttering</h3>
+            <form action="index.html"
+                class="animated animatedFadeInUp fadeInUp loginForm col-8 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                <img id="appImg" src="images/svg/appdev.svg" alt="">
+                <p id="info">Let's Make Beautiful Apps together!</p>
+                <div>
+                    <input class="form-control" type="email" name="fadminEmail" id="fadminEmail"
+                        placeholder="Email Address" required>
+                </div>
+                <input class="form-control" type="password" name="fadminPass" id="fadminPass" placeholder="Password"
+                    required>
+                <button type="submit" id="loginBtn" class="btn btn-primary">Login</button>
+            </form>
         </div>
     </section>
 
     <div class="blueWaveImage">
-        <img src="images/blueWave.png" width="100%">
+        <img src="images/svg/blueWave.svg" width="100%">
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

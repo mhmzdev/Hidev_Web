@@ -13,7 +13,10 @@
     <title>Make Beautiful Apps - Hidev</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="blogPost.css">
-    <link rel="icon" href="images/hidevIcon.png" type="image/icon type">
+    <link rel="icon" href="images/siteIcon/hidevIcon.png" type="image/icon type">
+
+    <!-- Required for AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Media Query Files -->
     <link rel="stylesheet" href="blogPostMQ/992px_Onwards.css">
@@ -95,8 +98,8 @@
     <header class="container-fluid blogTitle">
         <h1 id="blogHeading">MVC in Flutter App - The Holy Qur'an</h1>
         <p>by Muhammad Hamza | 24th June, 2020 | Flutter</p>
-        <a id="blogMedium" href="https://itnext.io/mvc-in-flutter-app-the-holy-quran-app-c0fd8ae31d67">Medium <i
-                class="fa fa-medium" aria-hidden="true"></i> </a>
+        <a id="blogMedium" href="https://itnext.io/mvc-in-flutter-app-the-holy-quran-app-c0fd8ae31d67"
+            data-aos="fade-in" data-aos-delay="100">Medium <i class="fa fa-medium" aria-hidden="true"></i> </a>
     </header>
 
     <div class="container-fluid">
@@ -168,7 +171,7 @@
                 <div class="row">
                     <div class="col-4 col-sm-4 col-md-4 col-lg-5"></div>
                     <div class="authorImg col-4 col-sm-4 col-md-3 col-lg-2">
-                        <img id="authorImg" src="images/myPic.png">
+                        <img id="authorImg" src="images/about/myPic.png">
                     </div>
 
                 </div>
@@ -184,7 +187,7 @@
         </div>
     </div>
 
-    <div class="cheers">
+    <div class="cheers" data-aos="fade-in" data-aos-delay="100">
         <h1 id="blogHeading">
             Happy Fluttering :)
         </h1>
@@ -225,6 +228,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

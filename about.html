@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-
     <title>Make Beautiful Apps - Hidev</title>
-    <link rel="icon" href="images/hidevIcon.png" type="image/icon type">
+    <link rel="icon" href="images/siteIcon/hidevIcon.png" type="image/icon type">
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="contact.css">
+
+    <!-- Required for AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Media Query Files -->
     <link rel="stylesheet" href="aboutMQ/576px_XS.css">
@@ -106,20 +108,16 @@
     <div class="container-fluid" style="position: absolute;">
         <div class="row">
             <div class="mobileImage col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10" style="margin-top: 8%;">
-                <img src="images/fourMobile.png" width="100%">
+                <img src="images/svg/fourMobile.svg" width="100%">
             </div>
             <div class="solutionImage col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                <img src="images/mobileSolutoin.png" width="100%">
+                <img src="images/svg/mobileSolutoin.svg" width="100%">
             </div>
         </div>
     </div>
 
     <div class="blueWaveImage">
-        <img src="images/blueWave.png" width="100%">
-    </div>
-
-    <div class="flutterBackImage">
-        <img id="flutterLogo" src="images/flutter.png">
+        <img src="images/svg/blueWave.svg" width="100%">
     </div>
 
     <section class="container-fluid">
@@ -127,13 +125,13 @@
             <aside class="col-1 col-sm-1 col-md-1 col-lg-1"></aside>
 
             <div class="aboutMeContainer col-10 col-sm-10 col-md-11 col-lg-10">
-                <h1 id="blogHeading">About Me</h1>
+                <h1 id="blogHeading" data-aos="fade-in" data-aos-delay="150">About Me</h1>
 
                 <div class="container-fluid aboutMe">
                     <div class="row">
                         <div class="col-4 col-lg-1 col-xl-1"></div>
                         <div class="myPicture col-4 col-sm-4 col-md-3 col-lg-2 col-xl-2">
-                            <img id="pic" src="images/myPic.png">
+                            <img id="pic" src="images/about/myPic.png">
                         </div>
                         <div class="aboutMeDiv col-12 col-sm-12 col-md-11 col-lg-8 col-xl-8">
                             <p id="aboutMeText">Founder to Hidev and Flutter
@@ -145,22 +143,28 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="animated animatedFadeInUp fadeInUp flutterBackImage">
+                    <img id="flutterLogo" src="images/about/flutter.png">
+                </div>
+
                 <div class="container statsContainer">
                     <div class="row">
                         <div class="statsType col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
-                            <h3 id="statsCounter">8</h3>
+                            <h3 class="value" id="statsCounter">8</h3>
                             <p id="statsDescription">Open Source Project</p>
                         </div>
                         <div class="statsType col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
-                            <h3 id="statsCounter">1</h3>
-                            <p id="statsDescription">Real World App</p>
-                        </div>
-                        <div class="statsType col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
-                            <h3 id="statsCounter">9</h3>
+                            <h3 class="value" id="statsCounter">9</h3>
                             <p id="statsDescription">Technical Post</p>
                         </div>
                         <div class="statsType col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
-                            <h3 id="statsCounter">8 <span style="font-size: 40%;">Months</span> </h3>
+                            <h3 class="value" id="statsCounter">1</h3>
+                            <p id="statsDescription">Real World App</p>
+                        </div>
+                        <div class="statsType col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                            <span id="exp">Months</span>
+                            <h3 class="value" id="statsCounter">8</h3>
                             <p id="statsDescription">Flutter Experience</p>
                         </div>
                     </div>
@@ -171,7 +175,7 @@
     </section>
 
     <div class="myOfferingBack">
-        <img id="offerBlueBack" src="images/aboutBack.png" width="100%">
+        <img id="offerBlueBack" src="images/about/aboutBack.png">
     </div>
 
     <div class="container-fluid myOfferings">
@@ -183,7 +187,8 @@
         <div class="container-fluid offerings">
             <div class="row">
                 <div class="offeringContainer uiux col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-                    <div style="text-align: center;"><img src="images/offerings/ui.PNG" width="15%"></div><br>
+                    <div style="text-align: center;" data-aos="fade-in" data-aos-delay="120"><img
+                            src="images/offerings/ui.svg" width="15%"></div><br>
                     <p id="offeringType">UI/UX Designing</p>
                     <p id="offeringDesc">Although I mainly a flutter developer but I do care about the UI/UX for my
                         client. Hence, I also
@@ -192,7 +197,8 @@
                 </div>
                 <div class="col-sm-1 col-md-1 col-lg-1"></div>
                 <div class="offeringContainer appDevelopment col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-                    <div style="text-align: center;"><img src="images/offerings/app.PNG" width="15%"></div><br>
+                    <div style="text-align: center;" data-aos="fade-in" data-aos-delay="120"><img
+                            src="images/offerings/app.svg" width="15%"></div><br>
                     <p id="offeringType">Full App Development</p>
                     <p id="offeringDesc">For now, I can only develop Android Apps using Flutter, that's because I don't
                         own a MacBook right now so can't test or debug apps for iOS.
@@ -200,7 +206,8 @@
                 </div>
                 <div class="col-lg-3"></div>
                 <div class="offeringContainer prototype col-12 col-sm-12 col-md-11 col-lg-6 col-xl-6">
-                    <div style="text-align: center;"><img src="images/offerings/prototype.PNG" width="15%"></div>
+                    <div style="text-align: center;" data-aos="fade-in" data-aos-delay="120"><img
+                            src="images/offerings/prototype.svg" width="15%"></div>
                     <p id="offeringType">Rapid Prototyping</p>
                     <p id="offeringDesc">Having a startup idea? Or maybe just want a prototype for your clients? With
                         Flutter I can get you basic version of your app in no time and you are good to go for your
@@ -213,22 +220,28 @@
         <div class="container socialLinks">
             <div style="margin-top: 2%; text-align: center;">
                 <h5>Wanna Connect?</h5><br>
-                <a id="mediaLinks" target="_blank" href="https://facebook.com/hamza.maddog">
+                <a id="mediaLinks" target="_blank" href="https://facebook.com/hamza.maddog" data-aos="fade-in"
+                    data-aos-delay="80">
                     <i id="mediaIcon" class="fa fa-facebook-square" aria-hidden="true"></i>
                 </a>
-                <a id="mediaLinks" target="_blank" href="https://instagram.com/m_hamzashakeel">
+                <a id="mediaLinks" target="_blank" href="https://instagram.com/m_hamzashakeel" data-aos="fade-in"
+                    data-aos-delay="100">
                     <i id="mediaIcon" class="fa fa-instagram" aria-hidden="true"></i>
                 </a>
-                <a id="mediaLinks" target="_blank" href="https://linkedin.com/in/m-hamzashakeel">
+                <a id="mediaLinks" target="_blank" href="https://linkedin.com/in/m-hamzashakeel" data-aos="fade-in"
+                    data-aos-delay="150">
                     <i id="mediaIcon" class="fa fa-linkedin-square" aria-hidden="true"></i>
                 </a>
-                <a id="mediaLinks" target="_blank" href="https://twitter.com/m_hamzashakeel">
+                <a id="mediaLinks" target="_blank" href="https://twitter.com/m_hamzashakeel" data-aos="fade-in"
+                    data-aos-delay="200">
                     <i id="mediaIcon" class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
-                <a id="mediaLinks" target="_blank" href="https://reddit.com/user/m_hamzashakeel">
+                <a id="mediaLinks" target="_blank" href="https://reddit.com/user/m_hamzashakeel" data-aos="fade-in"
+                    data-aos-delay="250">
                     <i id="mediaIcon" class="fa fa-reddit" aria-hidden="true"></i>
                 </a>
-                <a id="mediaLinks" target="_blank" href="https://github.com/m-hamzashakeel">
+                <a id="mediaLinks" target="_blank" href="https://github.com/m-hamzashakeel" data-aos="fade-in"
+                    data-aos-delay="300">
                     <i id="mediaIcon" class="fa fa-github" aria-hidden="true"></i>
                 </a>
             </div>
@@ -268,6 +281,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

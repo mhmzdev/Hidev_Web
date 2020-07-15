@@ -35,13 +35,17 @@
 
 .loginForm {
     padding: 5%;
-    padding-top: 7%;
     padding-bottom: 7%;
     margin-top: 3%;
     text-align: center;
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#appImg {
+    height: auto;
+    width: 35%;
 }
 
 .bottomText {
@@ -67,19 +71,24 @@
     background-color: rgb(1, 87, 155);
 }
 
+#mob2 {
+    position: absolute;
+    bottom: 0px;
+    margin-top: 5%;
+    left: 15%;
+    height: auto;
+    width: 50%;
+}
+
 @media only screen and (max-width: 768px) {
     .adminLogin {
         margin-top: 40%;
     }
     .loginForm {
         margin-top: 5%;
-        height: 20rem;
     }
     .btn-primary {
         font-size: 4vw;
-    }
-    #happyFluttering {
-        font-size: 6vw;
     }
     #blogHeading {
         font-size: 5vw;
@@ -90,5 +99,11 @@
     }
     #mobSolution {
         font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #mob2 {
+        display: none;
     }
 }
