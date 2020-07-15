@@ -10,13 +10,6 @@
         font-size: 100%;
         color: black;
     }
-    #flutterICTImage {
-        height: auto;
-        width: 80%;
-    }
-    .copyrightDiv {
-        margin-top: 2%;
-    }
 }
 
 @media only screen and (max-width: 390px) {

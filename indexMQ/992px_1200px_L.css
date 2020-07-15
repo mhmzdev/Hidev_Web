@@ -6,4 +6,14 @@
     #readMoreBtn {
         height: 20%;
     }
+
+    #footerIcon {
+        font-size: 250%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #footerIcon {
+        margin-top: 1%;
+    }
 }

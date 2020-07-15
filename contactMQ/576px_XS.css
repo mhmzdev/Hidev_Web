@@ -2,21 +2,6 @@
     #contactImage {
         display: none;
     }
-
-    .footerContainer {
-        height: 15%;
-    }
-
-    #flutterICTImage {
-        margin-top: 3%;
-    }
-
-    .headerLinks {
-        position: absolute;
-        margin-left: 15%;
-        margin-top: 12%;
-        text-align: center;
-    }
 }
 
 @media only screen and (max-width: 390px) {
@@ -28,8 +13,5 @@
     }
     #fmessage {
         margin-top: 3%;
-    }
-    .headerLinks {
-        margin-top: 18%;
     }
 }
