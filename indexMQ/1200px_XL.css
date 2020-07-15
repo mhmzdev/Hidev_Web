@@ -11,9 +11,11 @@
     }
     #flutterICTImage {
         margin-left: 20%;
+        height: auto;
+        width: 70%;
     }
     .headerLinks {
-        margin-top: 2%;
+        margin-top: 1%;
     }
     #copyright {
         margin-top: 4%;

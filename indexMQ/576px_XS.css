@@ -1,29 +1,10 @@
-@media only screen and (max-width: 575px) {
-    .footerContainer {
-        height: 15%;
-    }
-    .headerLinks {
-        text-align: center;
-        position: absolute;
-        margin-left: 16%;
-        margin-top: 10%;
-    }
-}
-
 @media only screen and (max-width: 390px) {
     .post {
         height: 100rem;
     }
 
-    #copyright {
-        margin-top: 5%;
-    }
-
     #flutterICTImage {
-        margin-top: 40%;
-    }
-
-    .headerLinks {
-        margin-top: 18%;
+        height: auto;
+        width: 100%;
     }
 }
