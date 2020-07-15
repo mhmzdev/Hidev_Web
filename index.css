@@ -19,15 +19,11 @@ nav .navbar-nav li a {
     margin-right: 1.5vw;
 }
 
-nav .navbar-nav li a:hover {
+.navbar-light .nav-item > .nav-link.active {
     color: rgb(1, 87, 155) !important;
 }
 
-nav .navbar-nav li a:focus {
-    color: rgb(1, 87, 155) !important;
-}
-
-nav .navbar-nav li a:active {
+nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     color: rgb(1, 87, 155) !important;
 }
 
@@ -50,7 +46,7 @@ nav .navbar-nav li a:active {
 #blogHeading {
     color: rgb(1, 87, 155) !important;
     font-weight: bold;
-    font-size: 250%;
+    font-size: 200%;
 }
 
 .blogs {
