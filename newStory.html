@@ -17,7 +17,6 @@
 
     <!-- Media Query Files -->
     <link rel="stylesheet" href="indexMQ/576px_XS.css">
-    <link rel="stylesheet" href="indexMQ/576px_768px_S.css">
     <link rel="stylesheet" href="indexMQ/768px_992px_M.css">
     <link rel="stylesheet" href="indexMQ/992px_1200px_L.css">
     <link rel="stylesheet" href="indexMQ/1200px_XL.css">
@@ -49,11 +48,15 @@
 
 <body>
 
+    <!-- Nav Bar Code -->
     <nav id="navBar" class="navbar navbar-expand-sm navbar-light myNavBar">
+        <!-- Brand Name -->
         <a href="index.html" class="navbar-brand">Hidev</a>
+        <!-- Collapse Button for smaller screen size -->
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Nav Buttons on left side -->
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -65,6 +68,7 @@
                 <li class="nav-item">
                     <a href="about.html" class="nav-link">About</a>
                 </li>
+                <!-- Portfolio Dropdown -->
                 <li class="nav-item">
                     <a href="#" class="dropdown-toggle nav-link" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Portfolio</a>
@@ -75,6 +79,7 @@
                         <a id="nameLink" class="dropdown-item" href="https://talhafarooq.artstation.com/">Talha</a>
                     </div>
                 </li>
+                <!-- Admin dropdown -->
                 <li class="nav-item">
                     <a href="#" class="dropdown-toggle nav-link" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Admin</a>
@@ -92,21 +97,26 @@
         </div>
     </nav>
 
+    <!-- Publish Button -->
     <div class="publishBtn">
         <button class="btn btn-success">Publish</button>
     </div>
 
+    <!-- Blog Text Field -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-1 col-md-2 col-lg-3 col-xl-3"></div>
             <div class="titleField col-12 col-sm-11 col-md-10 col-lg-9 col-xl-9">
+                <!-- Title -->
                 <input class="form-control title" type="text" id="ftitle" name="ftitle" placeholder="Title">
+                <!-- Story -->
                 <textarea class="form-control story" name="Text1" cols="10" rows="1"
                     placeholder="Tell your story"></textarea>
             </div>
         </div>
     </div>
 
+    <!-- Other Script for Text Fields working -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>

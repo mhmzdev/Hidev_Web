@@ -10,6 +10,9 @@
         font-size: 100%;
         color: black;
     }
+    .flutterBackImage {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 390px) {

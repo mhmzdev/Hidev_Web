@@ -21,7 +21,6 @@
 
     <!-- Media Query Files -->
     <link rel="stylesheet" href="indexMQ/576px_XS.css">
-    <link rel="stylesheet" href="indexMQ/576px_768px_S.css">
     <link rel="stylesheet" href="indexMQ/768px_992px_M.css">
     <link rel="stylesheet" href="indexMQ/992px_1200px_L.css">
     <link rel="stylesheet" href="indexMQ/1200px_XL.css">
@@ -53,11 +52,15 @@
 
 <body>
 
+    <!-- Nav Bar Code -->
     <nav id="navBar" class="navbar navbar-expand-sm navbar-light myNavBar">
+        <!-- Brand Name -->
         <a href="index.html" class="navbar-brand">Hidev</a>
+        <!-- Collapse Button for smaller screen size -->
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Nav Buttons on left side -->
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -69,6 +72,7 @@
                 <li class="nav-item">
                     <a href="about.html" class="nav-link">About</a>
                 </li>
+                <!-- Portfolio Dropdown -->
                 <li class="nav-item">
                     <a href="#" class="dropdown-toggle nav-link" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Portfolio</a>
@@ -79,6 +83,7 @@
                         <a id="nameLink" class="dropdown-item" href="https://talhafarooq.artstation.com/">Talha</a>
                     </div>
                 </li>
+                <!-- Admin dropdown -->
                 <li class="nav-item">
                     <a href="#" class="dropdown-toggle nav-link" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Admin</a>
@@ -96,6 +101,7 @@
         </div>
     </nav>
 
+    <!-- Header Mobile Images -->
     <header class="container-fluid" style="position: absolute;">
         <div class="row">
             <div class="animated animatedFadeInUp fadeInUp mobileImage col-10 col-sm-10 col-md-10 col-lg-10 "
@@ -108,22 +114,27 @@
         </div>
     </header>
 
+    <!-- Blue Wave Image on Top -->
     <div class="blueWaveImage">
         <img src="images/svg/blueWave.svg" width="100%">
     </div>
 
+    <!-- 'BLOG' Heading -->
     <div class="blogHeadingContainer">
         <h1 id="blogHeading">Blog</h1>
     </div>
 
+    <!-- Blog Post -->
     <div class="blogs container-fluid">
         <div class="row">
             <div class="col-1 col-lg-1 col-sm-1 col-md-1 col-xl-1"></div>
             <div class="post col-10 col-md-10 col-sm-10 col-lg-10 col-xl-10">
                 <div class="row">
+                    <!-- Blog Image -->
                     <div class="imgDiv col-12 col-sm-11 col-md-11 col-lg-12 col-xl-4">
                         <img id="postImg" src="images/NavigationRail.png" width="100%" height="auto">
                     </div>
+                    <!-- Blog Text -->
                     <div class="postDesc col-11 col-sm-11 col-md-11 col-lg-11 col-xl-7"
                         style="margin-top: 50px; margin-left: 20px;">
                         <h3 id="postTopic" style="font-weight: 800;">MVC in Flutter App - The Holy Qur'an</h3>
@@ -139,31 +150,33 @@
                             testing text to make the site responsive on various screen sizes
                             Hello there my name is hidev solution site and I am a personal blog
                             as well.</p>
+                        <!-- Read More Button -->
                         <button type="button" onclick="window.location.href='blogPost.html'" class="btn btn-primary"
                             id="readMoreBtn" data-aos="fade-in" data-aos-delay="100">
                             <span id="readMoreText" style="font-weight: 500;">Read More</span>
                         </button>
                     </div>
-
                 </div>
             </div>
-
             <div class="col-1 col-lg-1"></div>
         </div>
         <br><br>
     </div>
 
+    <!-- Footer -->
     <footer class="container-fluid footerContainer">
         <div class="row">
-
+            <!-- Flutter Islamabad Link -->
             <div class="col-4 col-sm-3 col-md-3 col-lg-2 col-xl-2 FlutterIslamabadPakistan">
                 <a style="text-decoration: none;" target="_blank" href="https://facebook.com/FlutterIslamabadPakistan">
                     <img id="flutterICTImage" src="images/flutterIsl.png">
                 </a>
             </div>
+            <!-- Copyright Text -->
             <div class="copyrightDiv col-8 col-sm-5 col-md-5 col-lg-6" style="text-align: center;">
                 <p id="copyright">&copy;Hidev | Muhammad Hamza | 2020</p>
             </div>
+            <!-- Other Links on right -->
             <div class="headerLinks col-10 col-sm-4 col-md-4 col-lg-4">
                 <a id="headLink" target="_blank" href="https://medium.com/@hamza.6.shakeel">
                     <i id="footerIcon" class="fa fa-medium" aria-hidden="true"></i>
@@ -176,20 +189,21 @@
                     <i id="footerIcon" class="fa fa-github" aria-hidden="true"></i>
                 </a>
             </div>
-
+            <!-- Scroll on Top Button -->
             <div id="up" class="up">
                 <i class="fas fa-chevron-up"></i>
             </div>
-
         </div>
     </footer>
 
+    <!-- Scripts for animations & Scroll on top to work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
+
 </body>
 
 </html>

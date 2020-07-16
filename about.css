@@ -2,12 +2,12 @@
     position: absolute;
     opacity: 0.3;
     right: 0;
+    margin-top: 5%;
 }
 
 #flutterLogo {
     height: auto;
-    width: 80%;
-    margin-top: 10%;
+    width: 1200%;
     float: right;
 }
 
@@ -20,6 +20,46 @@
 #aboutMeText {
     font-size: 100%;
     text-align: justify;
+}
+
+.medInGit {
+    margin-top: 10%;
+}
+
+#iconBout {
+    font-size: 250%;
+    color: grey;
+}
+
+#iconBout:hover {
+    color: rgb(73, 73, 73);
+}
+
+.services {
+    margin-top: 15%;
+    padding: 1rem;
+}
+
+.service {
+    text-align: center;
+}
+
+#serviceName {
+    font-size: 120%;
+}
+
+#ppImg {
+    height: 40%;
+    width: auto;
+}
+
+#ppXD {
+    height: 35%;
+    width: 35%;
+}
+
+#devicons {
+    font-size: 40px;
 }
 
 .statsContainer {
