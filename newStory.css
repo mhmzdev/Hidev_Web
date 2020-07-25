@@ -1,10 +1,19 @@
 .titleField {
-    margin-top: 5%;    
+    margin-top: 5%;
 }
 
 .form-control {
     margin-top: 2%;
     border-width: 0px;
+}
+
+.publishBtn {
+    margin-top: 10%;
+    margin-left: 1%;
+}
+
+#blog_img {
+    float: right;
 }
 
 .form-control:focus {
@@ -19,10 +28,4 @@
 
 .story {
     resize: none;
-}
-
-.publishBtn {
-    width: fit-content;
-    float: right;
-    padding: 2%;
 }

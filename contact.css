@@ -2,6 +2,7 @@
     color: rgb(1, 87, 155) !important;
     font-weight: bold;
     font-size: 220%;
+    margin-top: 2%;
 }
 
 #tagline {
@@ -12,6 +13,19 @@
 
 .contactForm {
     margin-top: 8%;
+}
+
+.msgSentS {
+    margin-top: 2%;
+}
+
+.msgSent {
+    font-size: 100%;
+    border-radius: 8px;
+    color: rgb(1, 155, 1);
+    background-color: rgb(184, 255, 216);
+    text-align: center;
+    border: 1px solid rgb(1, 155, 47);
 }
 
 #fname {
@@ -118,4 +132,3 @@
     padding-top: 0px;
     margin-top: 0px;
 }
-

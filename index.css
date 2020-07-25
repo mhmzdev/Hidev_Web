@@ -37,6 +37,24 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     background-color: rgb(84, 197, 248);
 }
 
+.msg {
+    font-size: 100%;
+    border-radius: 8px;
+    color: rgb(1, 155, 27);
+    background-color: rgb(184, 255, 202);
+    text-align: center;
+    border: 1px solid rgb(1, 155, 1);
+}
+
+.deletedmsg {
+    font-size: 100%;
+    border-radius: 8px;
+    color: rgb(155, 1, 1);
+    background-color: rgb(255, 184, 184);
+    text-align: center;
+    border: 1px solid rgb(155, 1, 1);
+}
+
 .blogHeadingContainer {
     border-left: 0.2rem rgb(1, 87, 155) solid;
     margin-left: 8%;
@@ -53,6 +71,10 @@ nav .navbar-nav li a:active, nav .navbar-nav li a:hover {
     margin-top: 7%;
 }
 
+#deleteBtn {
+    float: right;
+}
+
 .post {
     background-color: white;
     padding: 10px;
@@ -65,15 +87,20 @@ div.post {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+
 #readMoreBtn {
-    border-radius: 20px;
-    padding: 2px;
-    width: 100%;
-    height: 8%;
+    border-radius: 10px;
+    width: 100%;    
     font-size: 130%;
     color: white !important;
     background-color: rgb(84, 197, 248);
     border-color: white;
+}
+
+#deleteBtn {
+    color: white;
+    
 }
 
 #readMoreBtn:hover {
@@ -124,6 +151,10 @@ div.post {
 
 .imgDiv {
     top: 10%;
+}
+
+.postDesc {
+    padding-bottom: 1%;
 }
 
 #postText {
