@@ -63,7 +63,6 @@ $blogPosts = mysqli_query($db, "SELECT * FROM blog");
 
 
 
-
 // Code for uploading messages and deleting them below
 $msgId = 0;
 $senderName = "";
@@ -102,6 +101,8 @@ if (isset($_GET['delMsg'])) {
 
 
 
+
+
 // For Admin Login
 if (isset($_POST['login'])) {
     $adminEmail = $_POST['admin_email'];
@@ -118,7 +119,7 @@ if (isset($_POST['login'])) {
     }
 }
 
-if (isset($_GET['aMsg'])) {
-    $adminLoginMsg = $_GET['aMsg'];
-    $_SESSION['admin'] = 'admin';
+if (isset($_GET['loggedOut'])) {
+    $logMsg = $_GET['loggedOut'];
+    $_SESSION['admin'] = $logMsg;
 }

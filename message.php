@@ -84,7 +84,7 @@
                         <div style="border-top: 1px white solid; margin-top: 5%;"></div>
                         <a id="nameLink" class="dropdown-item" href="newStory.php">New Story</a>
                         <div style="border-top: 1px white solid; margin-bottom: 5%;"></div>
-                        <a id="logOutLink" class="dropdown-item" href="admin.php">Logout</a>
+                        <a id="logOutLink" class="dropdown-item" href="admin.php?loggedOut=0">Logout</a>
                     </div>
                 </li>
             </ul>

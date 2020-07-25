@@ -1,6 +1,8 @@
 <?php
 include('connection.php');
-session_destroy();
+if (isset($_GET['loggedOut'])) {
+    session_destroy();
+}
 ?>
 
 <!DOCTYPE html>
