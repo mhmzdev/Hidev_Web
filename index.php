@@ -154,7 +154,7 @@
                         <!-- Blog Text -->
                         <div class="postDesc col-11 col-sm-11 col-md-11 col-lg-11 col-xl-7" style="margin-top: 50px; margin-left: 20px;">
                             <!-- Delete Button  -->
-                            <?php if ($_SESSION['admin'] == 'admin') { ?>
+                            <?php if (isset($_SESSION['admin']) == 'admin') { ?>
                                 <a data-aos="fade-in" href="connection.php?del=<?php echo $row['blog_id']; ?>" data-aos-delay="100" class="btn btn-danger" id="deleteBtn"><i class="fa fa-trash" aria-hidden="true"></i></a>
                             <?php } ?>
 

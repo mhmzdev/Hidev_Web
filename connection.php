@@ -1,10 +1,6 @@
 <?php
 
-// CRUD Operations for BLOG Posts below
-
 session_start();
-
-$_SESSION['admin'] = 'noadmin';
 
 // initializing variables
 $blog_id = 0;
