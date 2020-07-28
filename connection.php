@@ -4,6 +4,8 @@
 
 session_start();
 
+$_SESSION['admin'] = 'noadmin';
+
 // initializing variables
 $blog_id = 0;
 $blogTitle = "";
