@@ -19,8 +19,11 @@ I'm not into web development very much so that's why I used some very simple and
 
 6. mySQL (database)
 
-## Screen Shots
-Below are some screen shots of what I did. And I've also uploaded a <a target="_blank" href="https://youtu.be/SOaTgbtdZUg">video demo</a> at YouTube as well.
+# Screen Shots
+Below are some screen shots of what I did.
+
+## Video Demo
+Video Demo is available at <a target="_blank" href="https://youtu.be/SOaTgbtdZUg">YouTube</a>.
 
 ## Admin Login
 <img src="ss/admin.PNG" height = 400>
