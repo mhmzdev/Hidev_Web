@@ -21,3 +21,9 @@ I'm not into web development very much so that's why I used some very simple and
 
 ## Screen Shots
 <img src="ss/admin.PNG" height = 400>
+
+<img src="ss/blog.PNG" height = 400>
+
+<img src="ss/about.PNG" height = 400>
+
+<img src="ss/newstory.PNG" height = 400>
