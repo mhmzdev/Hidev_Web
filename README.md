@@ -36,3 +36,7 @@ Video Demo is available at <a target="_blank" href="https://youtu.be/SOaTgbtdZUg
 
 ## New Story Page
 <img src="ss/newstory.PNG" height = 400>
+
+# Instructions
+
+I've used XAMPP for this whole project, so I guess you might also need the whole enviornment to run this project fully.
