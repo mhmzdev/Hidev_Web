@@ -20,6 +20,8 @@ I'm not into web development very much so that's why I used some very simple and
 6. mySQL (database)
 
 ## Screen Shots
+Below are some screen shots of what I did. And I've also uploaded a <a href="https://youtu.be/SOaTgbtdZUg">video demo</a> at YouTube as well.
+
 <img src="ss/admin.PNG" height = 400>
 
 <img src="ss/blog.PNG" height = 400>
